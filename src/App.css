@@ -145,7 +145,7 @@ main::before {
 
   border-radius: 999px;
 
-  height: 48px; /* 🔥 clave para igualarlos */
+  height: 48px;
   box-sizing: border-box;
 }
 

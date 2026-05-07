@@ -1,61 +1,61 @@
-# 🌿 LavenderShop
+## 🌿 Portfolio UI
 
-LavenderShop is a modern e-commerce frontend built with React, JavaScript, HTML, and CSS. It focuses on a clean, minimal and elegant UI experience inspired by Apple-style design systems.
+Portfolio UI is a modern personal portfolio website built with React, JavaScript, HTML, and CSS. It focuses on clean layouts, smooth interactions, and a minimal aesthetic inspired by contemporary UI/UX design systems.
 
-The project includes smooth page transitions, an interactive product catalog, a dynamic shopping cart system, and responsive layouts optimized for both desktop and mobile. It also features micro-interactions such as hover animations, swipeable hero sections, and fluid UI feedback to enhance user experience.
+The project was designed and developed as a practice to strengthen frontend development skills, component-based architecture, and UI/UX design implementation using React. It emphasizes visual clarity, motion design, and a refined user experience through subtle animations and responsive layouts.
 
-LavenderShop was created as a practice project to strengthen frontend development skills, UI/UX design implementation, and component-based architecture using React.
+The goal of this portfolio is not only to showcase projects but also to reflect the brand identity behind them — combining simplicity, elegance, and intentional design decisions that enhance usability and visual harmony.
 
 
 ## ✨ Features
 
-- 🛍️ Product browsing & detail view
-- 🛒 Cart with dynamic item counter
-- 🎞️ Smooth page transitions (blur + fade)
-- 🎠 Hero carousel with custom navigation
-- 💫 Microinteractions (hover, ripple, animations)
-- 📱 Fully responsive design
+- 🧑‍💻 Personal introduction section with animated hero layout
+- 📁 Project showcase with modal-based detailed views
+- 🎞️ Smooth transitions and micro-interactions (Framer Motion)
+- 🖼️ Image carousel inside project modals
+- 💫 Glassmorphism UI elements and modern visual effects
+- 📱 Fully responsive design (mobile & desktop optimized)
 
 ## 🧰 Tech Stack
 
 - React
-- React Router
-- Swiper.js
-- CSS (custom, glassmorphism UI)
+- Framer Motion
+- JavaScript (ES6+)
+- HTML5
+- CSS3 (custom, glassmorphism UI)
 
 ## ⚙️ Notes
 - This project was bootstrapped with Vite.
+- Designed as a personal branding and portfolio concept.
+- Focused on UI/UX exploration rather than backend functionality.
 
 
 
 ## 🚀 Live Demo
 
-👉 https://lavanderShop.vercel.app
+👉 https://portfolio-wb.vercel.app
 
 ## 📸 Screenshots
 
-### Home
-![Home](./public/screenshots/home1.png)
-![Home](./public/screenshots/home2.png)
+### General
+![Home](./public/screenshots/portfolio/home.png)
+![About](./public/screenshots/portfolio/about.png)
 
-### Shop
-![Shop](./public/screenshots/shop1.png)
-![Shop](./public/screenshots/shop2.png)
+### Projects
+![Projects](./public/screenshots/portfolio/projects.png)
+![Project](./public/screenshots/portfolio/project-detail.png)
 
-### Product Detail
-![Product](./public/screenshots/product1.png)
-![Product](./public/screenshots/product2.png)
-![Product](./public/screenshots/product3.png)
+## Contact
+![Contact](./public/screenshots/portfolio/contact.png)
 
-### Cart
-![Cart](./public/screenshots/cart1.png)
-![Cart](./public/screenshots/cart2.png)
+
+
 
 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/walterbardier/lavanderShop.git
-cd lavanderShop
+git clone https://github.com/walterbardier/portfolio.git
+cd portfolio
 npm install
 npm run dev

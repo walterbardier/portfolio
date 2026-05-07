@@ -6,7 +6,7 @@ const projects = [
     description:
       "A minimalist e-commerce experience with a glassmorphism UI and smooth, elegant interactions inspired by Apple’s design language.",
     technologies: ["React", "CSS", "Vite"],
-    github: "https://github.com/yourusername/lavenderShop",
+    github: "https://github.com/walterbardier/lavenderShop",
     demo: "https://lavender-shop.vercel.app",
     images: [
       "/screenshots/lavander-shop/home-1.png",
@@ -26,11 +26,12 @@ const projects = [
     description:
       "A modern portfolio concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
     technologies: ["Figma", "React", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/walterbardier/portfolio",
     demo: "https://portfolio-wb.vercel.app",
     images: [
       "/screenshots/portfolio/home.png",
       "/screenshots/portfolio/projects.png",
+      "/screenshots/portfolio/project-detail.png",
       "/screenshots/portfolio/about.png",
       "/screenshots/portfolio/contact.png",
     ],
