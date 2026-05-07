@@ -1,21 +1,21 @@
 const projects = [
   {
     id: 1,
-    name: "Lavander Shop",
+    name: "Lavender Shop",
     type: "E-Commerce",
     description:
       "A minimalist e-commerce experience with a glassmorphism UI and smooth, elegant interactions inspired by Apple’s design language.",
     technologies: ["React", "CSS", "Vite"],
-    github: "https://github.com/walterbardier/lavanderShop",
-    demo: "https://lavandershop.vercel.app",
+    github: "https://github.com/walterbardier/lavender-shop",
+    demo: "https://lavender-shop-wb.vercel.app",
     images: [
-      "/screenshots/lavander-shop/home-1.png",
-      "/screenshots/lavander-shop/shop-1.png",
-      "/screenshots/lavander-shop/shop-2.png",
-      "/screenshots/lavander-shop/product-1.png",
-      "/screenshots/lavander-shop/cart-1.png",
-      "/screenshots/lavander-shop/cart-2.png",
-      "/screenshots/lavander-shop/home-2.png",
+      "/screenshots/lavender-shop/home-1.png",
+      "/screenshots/lavender-shop/shop-1.png",
+      "/screenshots/lavender-shop/shop-2.png",
+      "/screenshots/lavender-shop/product-1.png",
+      "/screenshots/lavender-shop/cart-1.png",
+      "/screenshots/lavender-shop/cart-2.png",
+      "/screenshots/lavender-shop/home-2.png",
     ],
   },
 
