@@ -7,7 +7,7 @@ const projects = [
       "A minimalist e-commerce experience with a glassmorphism UI and smooth, elegant interactions inspired by Apple’s design language.",
     technologies: ["React", "CSS", "Vite"],
     github: "https://github.com/walterbardier/lavenderShop",
-    demo: "https://lavender-shop.vercel.app",
+    demo: "https://lavendershop.vercel.app",
     images: [
       "/screenshots/lavander-shop/home-1.png",
       "/screenshots/lavander-shop/shop-1.png",
