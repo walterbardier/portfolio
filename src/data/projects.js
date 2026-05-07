@@ -31,7 +31,8 @@ const projects = [
     images: [
       "/screenshots/portfolio/home.png",
       "/screenshots/portfolio/projects.png",
-      "/screenshots/portfolio/project-detail.png",
+      "/screenshots/portfolio/project-detail-1.png",
+      "/screenshots/portfolio/project-detail-2.png",
       "/screenshots/portfolio/about.png",
       "/screenshots/portfolio/contact.png",
     ],

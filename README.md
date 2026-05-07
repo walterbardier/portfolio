@@ -43,7 +43,8 @@ The goal of this portfolio is not only to showcase projects but also to reflect 
 
 ### Projects
 ![Projects](./public/screenshots/portfolio/projects.png)
-![Project](./public/screenshots/portfolio/project-detail.png)
+![Project](./public/screenshots/portfolio/project-detail-1.png)
+![Project](./public/screenshots/portfolio/project-detail-2.png)
 
 ## Contact
 ![Contact](./public/screenshots/portfolio/contact.png)
