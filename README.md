@@ -33,7 +33,7 @@ The goal of this portfolio is not only to showcase projects but also to reflect 
 
 ## 🚀 Live Demo
 
-👉 https://portfolio-wb.vercel.app
+👉 https://portfolio-walterbardier.vercel.app
 
 ## 📸 Screenshots
 

@@ -27,7 +27,7 @@ const projects = [
       "A modern portfolio concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
     technologies: ["Figma", "React", "Framer Motion"],
     github: "https://github.com/walterbardier/portfolio",
-    demo: "https://portfolio-wb.vercel.app",
+    demo: "https://portfolio-walterbardier.vercel.app",
     images: [
       "/screenshots/portfolio/home.png",
       "/screenshots/portfolio/projects.png",
