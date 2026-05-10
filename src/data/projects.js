@@ -21,20 +21,23 @@ const projects = [
 
   {
     id: 2,
-    name: "Portfolio UI",
+    name: "X Redesign Concept",
     type: "UI/UX Design",
     description:
-      "A modern portfolio concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
-    technologies: ["Figma", "React", "Framer Motion"],
+      "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
+    technologies: ["Figma", "React", "Framer Motion", "Lucide Icons"],
     github: "https://github.com/walterbardier/portfolio",
-    demo: "https://portfolio-walterbardier.vercel.app",
+    demo: "https://x-redesign.vercel.app",
     images: [
-      "/screenshots/portfolio/home.png",
-      "/screenshots/portfolio/projects.png",
-      "/screenshots/portfolio/project-detail-1.png",
-      "/screenshots/portfolio/project-detail-2.png",
-      "/screenshots/portfolio/about.png",
-      "/screenshots/portfolio/contact.png",
+      "/screenshots/x-redesign/feed-1.png",
+      "/screenshots/x-redesign/feed-2.png",
+      "/screenshots/x-redesign/messages-1.png",
+      "/screenshots/x-redesign/messages-2.png",
+      "/screenshots/x-redesign/topics-1.png",
+      "/screenshots/x-redesign/topics-2.png",
+      "/screenshots/x-redesign/topics-3.png",
+      "/screenshots/x-redesign/profile-1.png",
+      "/screenshots/x-redesign/profile-2.png",
     ],
   },
 
@@ -68,6 +71,25 @@ const projects = [
 
   {
     id: 4,
+    name: "Portfolio UI",
+    type: "UI/UX Design",
+    description:
+      "A modern portfolio concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
+    technologies: ["Figma", "React", "Framer Motion"],
+    github: "https://github.com/walterbardier/portfolio",
+    demo: "https://portfolio-walterbardier.vercel.app",
+    images: [
+      "/screenshots/portfolio/home.png",
+      "/screenshots/portfolio/projects.png",
+      "/screenshots/portfolio/project-detail-1.png",
+      "/screenshots/portfolio/project-detail-2.png",
+      "/screenshots/portfolio/about.png",
+      "/screenshots/portfolio/contact.png",
+    ],
+  },
+
+  {
+    id: 5,
     name: "Rio Negro Conectado",
     type: "Full Stack Web App (PHP)",
     description:
