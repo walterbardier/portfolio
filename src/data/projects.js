@@ -21,6 +21,38 @@ const projects = [
 
   {
     id: 2,
+    name: "Recoverly",
+    type: "Wellness & Habit Tracker",
+    description:
+      "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions.",
+    technologies: ["React", "CSS", "Vite", "DnD Kit"],
+    github: "https://github.com/walterbardier/recoverly",
+    demo: "https://recoverly-wb.vercel.app",
+    images: [
+      "/screenshots/recoverly/dashboard-1.png",
+      "/screenshots/recoverly/dashboard-2.png",
+  
+      "/screenshots/recoverly/meditation-1.png",
+  
+      "/screenshots/recoverly/walk-1.png",
+      "/screenshots/recoverly/walk-2.png",
+      "/screenshots/recoverly/walk-3.png",
+      "/screenshots/recoverly/walk-4.png",
+  
+      "/screenshots/recoverly/dreams-1.png",
+      "/screenshots/recoverly/dreams-2.png",
+      "/screenshots/recoverly/dreams-3.png",
+      "/screenshots/recoverly/dreams-4.png",
+  
+      "/screenshots/recoverly/dashboard-3.png",
+      "/screenshots/recoverly/dashboard-4.png",
+  
+      "/screenshots/recoverly/alternative.png",
+    ],
+  },
+
+  {
+    id: 3,
     name: "X Redesign Concept",
     type: "UI/UX Design",
     description:
@@ -42,7 +74,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "Overwatch 2 UI Concept",
     type: "UI Concept Design",
     description:
@@ -70,7 +102,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Portfolio UI",
     type: "UI/UX Design",
     description:
@@ -89,7 +121,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Rio Negro Conectado",
     type: "Full Stack Web App (PHP)",
     description:
