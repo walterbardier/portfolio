@@ -24,7 +24,7 @@ const projects = [
     name: "Recoverly",
     type: "Wellness & Habit Tracker",
     description:
-      "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions.",
+      "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions. Designed to support people recovering from difficult mental periods through habit tracking, mindfulness, and emotional reflection. The app features a reactive virtual companion that acts as both a pet to care for and a reflection of the user themselves.",
     technologies: ["React", "CSS", "Vite", "DnD Kit"],
     github: "https://github.com/walterbardier/recoverly",
     demo: "https://recoverly-wb.vercel.app",
