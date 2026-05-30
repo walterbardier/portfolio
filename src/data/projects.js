@@ -4,7 +4,7 @@ const projects = [
     name: "Lavender Shop",
     type: "E-Commerce",
     description:
-      "A minimalist e-commerce experience with a glassmorphism UI and smooth, elegant interactions inspired by Apple’s design language.",
+      "A minimalist fashion e-commerce experience designed around a calm and contemporary brand identity. The project explores how light, transparency, and motion can shape perception, creating an atmosphere that feels refined, peaceful, and effortless. Through subtle animations and a clean visual language, the interface aims to make browsing feel less like navigating a store and more like engaging with the brand itself.",
     technologies: ["React", "CSS", "Vite"],
     github: "https://github.com/walterbardier/lavender-shop",
     demo: "https://lavender-shop-wb.vercel.app",
