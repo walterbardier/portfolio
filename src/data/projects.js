@@ -21,6 +21,47 @@ const projects = [
 
   {
     id: 2,
+    name: "Scoops & Co.",
+    type: "Branding | UI Design",
+    description:
+      "A branding and product design exploration for a fictional artisanal ice cream brand inspired by Retro Americana culture. The project focuses on visual identity, moodboard development, packaging direction, and UI/UX concepts, created in Illustrator and Figma.",
+    technologies: ["Figma", "Adobe Illustrator", "Moodboarding"],
+    // github: "https://github.com/walterbardier/portfolio",
+    // demo: "https://x-redesign.vercel.app",
+    images: [
+      "/screenshots/scoops-and-co/website-1.png",
+      "/screenshots/scoops-and-co/moodboard-1.png",
+      "/screenshots/scoops-and-co/moodboard-3.png",
+      "/screenshots/scoops-and-co/moodboard-4.png",
+      "/screenshots/scoops-and-co/moodboard-2.png",
+      "/screenshots/scoops-and-co/moodboard-5.png",
+    ],
+  },
+
+  {
+    id: 3,
+    name: "X Redesign Concept",
+    type: "UI/UX Design",
+    description:
+      "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
+    technologies: ["Figma", "React", "Framer Motion", "Lucide Icons"],
+    github: "https://github.com/walterbardier/portfolio",
+    demo: "https://x-redesign.vercel.app",
+    images: [
+      "/screenshots/x-redesign/feed-1.png",
+      "/screenshots/x-redesign/feed-2.png",
+      "/screenshots/x-redesign/messages-1.png",
+      "/screenshots/x-redesign/messages-2.png",
+      "/screenshots/x-redesign/topics-1.png",
+      "/screenshots/x-redesign/topics-2.png",
+      "/screenshots/x-redesign/topics-3.png",
+      "/screenshots/x-redesign/profile-1.png",
+      "/screenshots/x-redesign/profile-2.png",
+    ],
+  },
+
+  {
+    id: 4,
     name: "Recoverly",
     type: "Wellness & Habit Tracker",
     description:
@@ -48,47 +89,6 @@ const projects = [
       "/screenshots/recoverly/dashboard-4.png",
   
       "/screenshots/recoverly/alternative.png",
-    ],
-  },
-
-  {
-    id: 3,
-    name: "Scoops & Co.",
-    type: "Branding | UI Design",
-    description:
-      "A branding and product design exploration for a fictional artisanal ice cream brand inspired by Retro Americana culture. The project focuses on visual identity, moodboard development, packaging direction, and UI/UX concepts, created in Illustrator and Figma.",
-    technologies: ["Figma", "Adobe Illustrator", "Moodboarding"],
-    // github: "https://github.com/walterbardier/portfolio",
-    // demo: "https://x-redesign.vercel.app",
-    images: [
-      "/screenshots/scoops-and-co/website-1.png",
-      "/screenshots/scoops-and-co/moodboard-1.png",
-      "/screenshots/scoops-and-co/moodboard-3.png",
-      "/screenshots/scoops-and-co/moodboard-4.png",
-      "/screenshots/scoops-and-co/moodboard-2.png",
-      "/screenshots/scoops-and-co/moodboard-5.png",
-    ],
-  },
-
-  {
-    id: 4,
-    name: "X Redesign Concept",
-    type: "UI/UX Design",
-    description:
-      "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
-    technologies: ["Figma", "React", "Framer Motion", "Lucide Icons"],
-    github: "https://github.com/walterbardier/portfolio",
-    demo: "https://x-redesign.vercel.app",
-    images: [
-      "/screenshots/x-redesign/feed-1.png",
-      "/screenshots/x-redesign/feed-2.png",
-      "/screenshots/x-redesign/messages-1.png",
-      "/screenshots/x-redesign/messages-2.png",
-      "/screenshots/x-redesign/topics-1.png",
-      "/screenshots/x-redesign/topics-2.png",
-      "/screenshots/x-redesign/topics-3.png",
-      "/screenshots/x-redesign/profile-1.png",
-      "/screenshots/x-redesign/profile-2.png",
     ],
   },
 
