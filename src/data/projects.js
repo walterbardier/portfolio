@@ -126,7 +126,7 @@ const projects = [
     type: "Full Stack Web App (PHP)",
     description:
       "A web platform designed to improve organization and management of complaints and suggestions sent to the Intendencia of Río Negro, Uruguay. It allows citizens to submit concerns or notifications, which can be reviewed, responded to, and tracked by the municipality, creating a direct communication channel between citizens and government.",
-    technologies: ["PHP", "HTML", "CSS"],
+    technologies: ["PHP", "MySQL", "HTML", "CSS"],
     github: "https://github.com/walterbardier/proyecto",
     // demo: "#",
     images: [
