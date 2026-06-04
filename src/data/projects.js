@@ -25,7 +25,7 @@ const projects = [
     type: "UI/UX & Product Design",
     description:
       "A social recipe-sharing app designed to make cooking more accessible, personalized, and collaborative. Velv combines community-driven content with an intelligent AI assistant that learns user preferences, dietary restrictions, and cooking skills to deliver tailored recipe recommendations and automatically generate shopping lists from selected meals.",
-    technologies: ["Figma", "Adobe Illustrator", "Moodboarding"],
+    technologies: ["Figma", "Adobe Illustrator"],
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
     images: [      
@@ -50,10 +50,10 @@ const projects = [
   {
     id: 3,
     name: "Scoops & Co.",
-    type: "Branding & UI Design",
+    type: "UI/UX & Product Design",
     description:
       "A branding and product design exploration for a fictional artisanal ice cream brand inspired by Retro Americana culture. The project focuses on visual identity, moodboard development, packaging direction, and UI/UX concepts, created in Illustrator and Figma.",
-    technologies: ["Figma", "Adobe Illustrator", "Moodboarding"],
+    technologies: ["Figma", "Adobe Illustrator"],
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
     images: [
