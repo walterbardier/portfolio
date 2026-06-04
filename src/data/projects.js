@@ -29,8 +29,8 @@ const projects = [
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
     images: [      
-      "/screenshots/velv/Velv12.png",
-      "/screenshots/velv/Velv22.png",
+      "/screenshots/velv/Velv1.png",
+      "/screenshots/velv/Velv2.png",
       "/screenshots/velv/moodboard1.png",
       "/screenshots/velv/moodboard4.png",
       "/screenshots/velv/moodboard2.png",
