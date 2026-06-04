@@ -5,7 +5,7 @@ const projects = [
     type: "E-Commerce",
     description:
       "A minimalist fashion e-commerce experience designed around a calm and contemporary brand identity. The project explores how light, transparency, and motion can shape perception, creating an atmosphere that feels refined, peaceful, and effortless. Through subtle animations and a clean visual language, the interface aims to make browsing feel less like navigating a store and more like engaging with the brand itself.",
-    technologies: ["React", "CSS", "Vite"],
+    technologies: ["React", "JavaScript", "Vite"],
     github: "https://github.com/walterbardier/lavender-shop",
     demo: "https://lavender-shop-wb.vercel.app",
     images: [
@@ -72,7 +72,7 @@ const projects = [
     type: "Wellness & Habit Tracker",
     description:
       "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions. Designed to support people recovering from difficult mental periods through habit tracking, mindfulness, and emotional reflection. The app features a reactive virtual companion that acts as both a pet to care for and a reflection of the user themselves.",
-    technologies: ["React", "CSS", "Vite", "DnD Kit"],
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Vite", "DnD Kit"],
     github: "https://github.com/walterbardier/recoverly",
     demo: "https://recoverly-wb.vercel.app",
     images: [
@@ -104,7 +104,7 @@ const projects = [
     type: "UI/UX Design",
     description:
       "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
-    technologies: ["Figma", "React", "Framer Motion", "Lucide Icons"],
+    technologies: ["React", "JavaScript", "Framer Motion", "Lucide Icons", "Figma"],
     github: "https://github.com/walterbardier/portfolio",
     demo: "https://x-redesign.vercel.app",
     images: [
@@ -154,7 +154,7 @@ const projects = [
     type: "UI/UX Design",
     description:
       "A modern portfolio concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
-    technologies: ["Figma", "React", "Framer Motion"],
+    technologies: ["Figma", "JavaScript", "React"],
     github: "https://github.com/walterbardier/portfolio",
     demo: "https://portfolio-walterbardier.vercel.app",
     images: [
