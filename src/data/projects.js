@@ -21,6 +21,34 @@ const projects = [
 
   {
     id: 2,
+    name: "Velv",
+    type: "UI/UX Design",
+    description:
+      "A social recipe-sharing app designed to make cooking more accessible, personalized, and collaborative. Velv combines community-driven content with an intelligent AI assistant that learns user preferences, dietary restrictions, and cooking skills to deliver tailored recipe recommendations and automatically generate shopping lists from selected meals.",
+    technologies: ["Figma", "Adobe Illustrator", "Moodboarding"],
+    // github: "https://github.com/walterbardier/portfolio",
+    // demo: "https://x-redesign.vercel.app",
+    images: [      
+      "/screenshots/velv/Velv1.png",
+      "/screenshots/velv/Velv2.png",
+      "/screenshots/velv/moodboard1.png",
+      "/screenshots/velv/moodboard4.png",
+      "/screenshots/velv/moodboard2.png",
+      "/screenshots/velv/moodboard3.png",
+      "/screenshots/velv/moodboard5.png",
+
+      "/screenshots/velv/favorites.jpg",
+      "/screenshots/velv/favorites2.jpg",
+      "/screenshots/velv/profile.jpg",
+      "/screenshots/velv/profile2.jpg",
+      "/screenshots/velv/shop.jpg",
+      "/screenshots/velv/home.jpg",
+      "/screenshots/velv/loading.jpg",
+    ],
+  },
+
+  {
+    id: 3,
     name: "Scoops & Co.",
     type: "Branding | UI Design",
     description:
@@ -35,28 +63,6 @@ const projects = [
       "/screenshots/scoops-and-co/moodboard-4.png",
       "/screenshots/scoops-and-co/moodboard-2.png",
       "/screenshots/scoops-and-co/moodboard-5.png",
-    ],
-  },
-
-  {
-    id: 3,
-    name: "X Redesign Concept",
-    type: "UI/UX Design",
-    description:
-      "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
-    technologies: ["Figma", "React", "Framer Motion", "Lucide Icons"],
-    github: "https://github.com/walterbardier/portfolio",
-    demo: "https://x-redesign.vercel.app",
-    images: [
-      "/screenshots/x-redesign/feed-1.png",
-      "/screenshots/x-redesign/feed-2.png",
-      "/screenshots/x-redesign/messages-1.png",
-      "/screenshots/x-redesign/messages-2.png",
-      "/screenshots/x-redesign/topics-1.png",
-      "/screenshots/x-redesign/topics-2.png",
-      "/screenshots/x-redesign/topics-3.png",
-      "/screenshots/x-redesign/profile-1.png",
-      "/screenshots/x-redesign/profile-2.png",
     ],
   },
 
@@ -94,6 +100,28 @@ const projects = [
 
   {
     id: 5,
+    name: "X Redesign Concept",
+    type: "UI/UX Design",
+    description:
+      "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
+    technologies: ["Figma", "React", "Framer Motion", "Lucide Icons"],
+    github: "https://github.com/walterbardier/portfolio",
+    demo: "https://x-redesign.vercel.app",
+    images: [
+      "/screenshots/x-redesign/feed-1.png",
+      "/screenshots/x-redesign/feed-2.png",
+      "/screenshots/x-redesign/messages-1.png",
+      "/screenshots/x-redesign/messages-2.png",
+      "/screenshots/x-redesign/topics-1.png",
+      "/screenshots/x-redesign/topics-2.png",
+      "/screenshots/x-redesign/topics-3.png",
+      "/screenshots/x-redesign/profile-1.png",
+      "/screenshots/x-redesign/profile-2.png",
+    ],
+  },
+
+  {
+    id: 6,
     name: "Overwatch 2 UI Concept",
     type: "UI Concept Design",
     description:
@@ -121,7 +149,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Portfolio UI",
     type: "UI/UX Design",
     description:
@@ -140,7 +168,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: "Rio Negro Conectado",
     type: "Full Stack Web App (PHP)",
     description:
