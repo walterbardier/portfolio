@@ -50,7 +50,7 @@ const projects = [
   {
     id: 3,
     name: "Scoops & Co.",
-    type: "Branding | UI Design",
+    type: "Branding & UI Design",
     description:
       "A branding and product design exploration for a fictional artisanal ice cream brand inspired by Retro Americana culture. The project focuses on visual identity, moodboard development, packaging direction, and UI/UX concepts, created in Illustrator and Figma.",
     technologies: ["Figma", "Adobe Illustrator", "Moodboarding"],
