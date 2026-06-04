@@ -22,7 +22,7 @@ const projects = [
   {
     id: 2,
     name: "Velv",
-    type: "UI/UX Design",
+    type: "UI/UX & Product Design",
     description:
       "A social recipe-sharing app designed to make cooking more accessible, personalized, and collaborative. Velv combines community-driven content with an intelligent AI assistant that learns user preferences, dietary restrictions, and cooking skills to deliver tailored recipe recommendations and automatically generate shopping lists from selected meals.",
     technologies: ["Figma", "Adobe Illustrator", "Moodboarding"],
