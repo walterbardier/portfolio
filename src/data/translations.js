@@ -27,7 +27,7 @@ const translations = {
             "Projects",
 
         projectsDescription:
-            "A selection of projects focused on clean UI, frontend architecture, and user experience.",
+            "Projects focused on clean UI, frontend, and UX. Primarily design and frontend-driven, complemented by backend and full-stack solutions.",
 
         // Contact
         contactTitle:
@@ -86,7 +86,7 @@ const translations = {
             "Proyectos",
 
         projectsDescription:
-            "Una selección de proyectos enfocados en interfaces limpias, arquitectura frontend y experiencia de usuario.",
+            "Proyectos centrados en UI limpia, frontend y UX. Enfocados principalmente en diseño e interacción, complementados con soluciones backend y full-stack.",
 
 
         // Contact
