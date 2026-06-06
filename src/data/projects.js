@@ -40,8 +40,8 @@ const projects = [
       es: "UI/UX & Product Design",
     },
     description: {
-      en: "A social recipe-sharing app designed to make cooking more accessible, personalized, and collaborative. Velv combines community-driven content with an intelligent AI assistant that learns user preferences, dietary restrictions, and cooking skills to deliver tailored recipe recommendations and automatically generate shopping lists from selected meals.",
-      es: "Una aplicación de compartir recetas social diseñada para hacer la cocina más accesible, personalizada y colaborativa. Velv combina contenido impulsado por la comunidad con un asistente inteligente de IA que aprende las preferencias del usuario, restricciones dietéticas y habilidades de cocina para entregar recomendaciones de recetas adaptadas y generar listas de compra automáticamente desde las comidas seleccionadas.",
+      en: "A social recipe-sharing app designed to make cooking more accessible, personalized, and collaborative. Velv combines community-driven content with an AI assistant that learns user preferences, dietary restrictions, and cooking skills to deliver tailored recipe recommendations and automatically generate shopping lists from selected meals.",
+      es: "Una aplicación social para compartir recetas, diseñada para hacer que la cocina sea más accesible, personalizada y colaborativa. Velv combina contenido impulsado por la comunidad con un asistente inteligente de IA que aprende las preferencias del usuario, sus restricciones alimentarias y sus habilidades culinarias para ofrecer recomendaciones de recetas a medida y generar automáticamente listas de compras a partir de los platos seleccionados.",
     },
 
     technologies: ["Figma", "Adobe Illustrator"],
@@ -77,8 +77,8 @@ const projects = [
       es: "UI/UX & Product Design",
     },
     description: {
-      en: "A branding and product design exploration for a fictional artisanal ice cream brand inspired by Retro Americana culture. The project focuses on visual identity, moodboard development, packaging direction, and UI/UX concepts, created in Illustrator and Figma.",
-      es: "Una exploración de diseño de marca y producto para una marca de helados artesanales ficticia inspirada en la cultura Retro Americana. El proyecto se centra en el desarrollo de la identidad visual, la creación de un moodboard, la dirección del empaquetado y los conceptos de UI/UX, creados en Illustrator y Figma.",
+      en: "A branding and product design project for an artisanal ice cream brand inspired by Retro Americana culture. The project features a comprehensive case study developing the visual identity and packaging direction to align with the client’s vision, paired with an editorial UI/UX web design concept created in Illustrator and Figma.",
+      es: "Un proyecto de branding y diseño de producto para una marca de helados artesanales inspirada en la cultura Retro Americana. El proyecto presenta un caso de estudio integral que desarrolla la identidad visual y la dirección de packaging para alinearse con la visión del cliente, junto con un concepto de diseño web UI/UX de estilo editorial, creado en Illustrator y Figma..",
     },
 
     technologies: ["Figma", "Adobe Illustrator"],
@@ -105,8 +105,8 @@ const projects = [
       es: "Bienestar & Tracker de Hábitos",
     },
     description: {
-      en: "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions. Designed to support people recovering from difficult mental periods through habit tracking, mindfulness, and emotional reflection. The app features a reactive virtual companion that acts as both a pet to care for and a reflection of the user themselves.",
-      es: "Una experiencia de bienestar y cuidado personal enfocada en el seguimiento de hábitos, mindfulness, reflexión emocional y interacciones inmersivas inspiradas en el glassmorphism. Diseñada para apoyar a las personas en recuperación de períodos mentales difíciles a través del seguimiento de hábitos, mindfulness y reflexión emocional. La aplicación cuenta con un compañero virtual reactivo que actúa como mascota para cuidar y como reflejo del propio usuario.",
+      en: "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions. Designed for those in recovery when starting therapy or after an unhealthy streak, the app supports this journey through a reactive virtual companion that acts as both a pet to care for and a reflection of the user themselves.",
+      es: "Una experiencia de bienestar y cuidado personal centrada en el seguimiento de hábitos, la atención plena (mindfulness), la reflexión emocional e interacciones inmersivas inspiradas en el estilo glassmorphic. Diseñada para quienes están en recuperación al empezar terapia o después de una racha poco sana, la app apoya este proceso a través de un compañero virtual reactivo que funciona tanto como una mascota a la que cuidar como un reflejo de uno mismo.",
     },
 
     technologies: ["React", "JavaScript", "HTML", "CSS", "Vite", "DnD Kit"],
@@ -146,8 +146,8 @@ const projects = [
       es: "UI/UX Design",
     },
     description: {
-      en: "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
-      es: "Un concepto de rediseño moderno de X (Twitter) enfocado en diseños limpios, transiciones suaves y interacciones de UI premium para una experiencia de usuario refinada.",
+      en: "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions and premium UI interactions for a refined user experience.",
+      es: "Un concepto de rediseño moderno de X (Twitter) enfocado en diseños limpios, transiciones suaves e interacciones de UI premium para una experiencia de usuario refinada.",
     },
 
     technologies: ["React", "JavaScript", "Framer Motion", "Lucide Icons", "Figma"],
@@ -177,8 +177,8 @@ const projects = [
       es: "UI Concept Design",
     },
     description: {
-      en: "A fan-made project created for practice, focused on redesigning the Overwatch 2 website with a stronger visual identity, improved layout structure, and enhanced user interface aesthetics.",
-      es: "Un proyecto hecho por fans creado para practicar, enfocado en rediseñar el sitio web de Overwatch 2 con una identidad visual más fuerte, una estructura de diseño mejorada y una estética de interfaz de usuario mejorada.",
+      en: "A fan-made UX/UI project focused on redesigning the Overwatch 2 website to elevate its digital experience. The project analyzes user flows and interface heuristics to deliver a stronger visual identity, improved content hierarchy, and a fully optimized layout structure designed to enhance player engagement and navigation.",
+      es: "Un proyecto de diseño UX/UI fan-made enfocado en el rediseño del sitio web de Overwatch 2 para elevar su experiencia digital. El proyecto analiza los flujos de usuario y las heurísticas de la interfaz para ofrecer una identidad visual más sólida, una mejor jerarquía de contenido y una estructura de layout completamente optimizada, diseñada para mejorar la interacción del jugador y la navegación.",
     },
 
     technologies: ["HTML", "CSS"],
