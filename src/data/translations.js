@@ -20,7 +20,7 @@ const translations = {
         aboutTitle: "About",
   
         aboutText:
-            "Hi, I'm Walter Bardier, a Computer Engineering student from Uruguay with a passion for technology, design, and digital innovation. As a frontend developer, UI/UX enthusiast, and graphic designer, I enjoy transforming ideas and client needs into functional, creative, and visually refined digital experiences. My goal is to build modern interfaces that not only look great but also provide intuitive user experiences while staying true to each brand's identity.",
+            "Hi, I'm Walter Bardier, a Computer Engineering student from Uruguay with a passion for technology, design, and digital innovation. While I have experience building full-stack projects, my true specialization lies in frontend development and UI/UX design. As a developer and designer, I enjoy transforming complex ideas and client needs into functional, creative, and visually refined digital experiences. My goal is to build modern interfaces that not only look great but also provide intuitive user experiences while staying true to each brand's identity.",
             
         // Projects
         projectsTitle:
@@ -79,7 +79,7 @@ const translations = {
         aboutTitle: "Sobre mí",
   
         aboutText:
-            "Hola, soy Walter Bardier, estudiante de Ingeniería en Computación en Uruguay con pasión por la tecnología, el diseño y la innovación digital. Como frontend developer, entusiasta del UI/UX y diseñador gráfico, disfruto transformar ideas y necesidades de clientes en experiencias digitales funcionales, creativas y visualmente refinadas. Mi objetivo es crear interfaces modernas que no solo se vean bien, sino que también ofrezcan experiencias intuitivas sin perder la identidad de cada marca.",
+            "Hola, soy Walter Bardier, estudiante de Ingeniería en Computación de Uruguay, con una gran pasión por la tecnología, el diseño y la innovación digital. Si bien tengo experiencia en el desarrollo de proyectos full-stack, mi verdadera especialización está en el desarrollo frontend y el diseño UI/UX. Como desarrollador y diseñador, disfruto transformar ideas complejas y necesidades del cliente en experiencias digitales funcionales, creativas y visualmente refinadas. Mi objetivo es construir interfaces modernas que no solo se vean excelentes, sino que también ofrezcan experiencias de usuario intuitivas, manteniéndose fieles a la identidad de cada marca.",
             
         // Projects
         projectsTitle:
