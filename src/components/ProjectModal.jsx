@@ -163,8 +163,8 @@ export default function ProjectModal({
                     <div className="live-demo-button current-site">
                       <span>
                         {language === "es"
-                          ? "Estás aquí"
-                          : "You're here"}
+                          ? "Estás aquí :)"
+                          : "You're here :)"}
                       </span>
                     </div>
                   ) : (
