@@ -102,27 +102,32 @@ export default function ProjectModal({
                 <p>{project.description}</p>
               </div>
 
-              <div className="modal-buttons">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="icon-button"
-                >
-                  <FaGithub />
-                </a>
+              {project.type !== "UI/UX & Product Design" && (
+                <div className="modal-buttons">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="icon-button"
+                  >
+                    <FaGithub />
+                  </a>
 
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="live-demo-button"
-                >
-                  <HiPlay />
+                  {project.name !== "Overwatch 2 UI Concept" &&
+                    project.name !== "Rio Negro Conectado" && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="live-demo-button"
+                      >
+                        <HiPlay />
 
-                  <span>Live Demo</span>
-                </a>
-              </div>
+                        <span>Live Demo</span>
+                      </a>
+                    )}
+                </div>
+              )}
             </div>
 
             <div className="project-tags">
