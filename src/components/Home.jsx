@@ -5,71 +5,91 @@ import {
   staggerContainer,
 } from "./animations";
 
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedinIn,
+} from "react-icons/fa";
+
+import {
+  useLanguage,
+} from "../context/LanguageContext";
+
+import translations from "../data/translations";
 
 export default function Home() {
-    return (
-        <motion.div
-            className="home"
-            variants={staggerContainer}
-            initial="hidden"
-            animate="show"
-        >
-        <motion.div
+  const { language } =
+    useLanguage();
+
+  const t = translations[language];
+
+  return (
+    <motion.div
+      className="home"
+      variants={staggerContainer}
+      initial="hidden"
+      animate="show"
+    >
+      <motion.div
         className="glass home-card"
         variants={fadeUp}
-        >
+      >
         <motion.p
-            className="home-subtitle"
-            variants={fadeUp}
+          className="home-subtitle"
+          variants={fadeUp}
         >
-            Frontend Developer & UI/UX Designer
+          {t.heroRole}
         </motion.p>
 
         <motion.h1 variants={fadeUp}>
-            Walter
-            <br />
-            Bardier
+          Walter
+          <br />
+          Bardier
         </motion.h1>
 
         <motion.p
-            className="home-description"
-            variants={fadeUp}
+          className="home-description"
+          variants={fadeUp}
         >
-            Crafting elegant digital experiences through minimal design,
-            modern interfaces, and intentional interactions that prioritize clarity,
-            usability, and visual harmony, while expressing the essence of each brand.
+          {t.heroDescription}
         </motion.p>
 
         <motion.div
-            className="home-buttons"
-            variants={fadeUp}
+          className="home-buttons"
+          variants={fadeUp}
         >
-            <a href="#projects" className="primary-button">
-            View Projects
-            </a>
+          <a
+            href="#projects"
+            className="primary-button"
+          >
+            {t.viewProjects}
+          </a>
 
-            <a href="#contact" className="secondary-button">
-            Contact Me
-            </a>
+          <a
+            href="#contact"
+            className="secondary-button"
+          >
+            {t.contactMe}
+          </a>
 
-            <a
+          <a
             href="https://github.com/walterbardier"
             target="_blank"
+            rel="noopener noreferrer"
             className="social-icon"
-            >
+          >
             <FaGithub />
-            </a>
+          </a>
 
-            <a
+          <a
             href="https://www.linkedin.com/in/walterbardier/"
             target="_blank"
+            rel="noopener noreferrer"
             className="social-icon"
-            >
+          >
             <FaLinkedinIn />
-            </a>
+          </a>
         </motion.div>
-        </motion.div>
+      </motion.div>
     </motion.div>
-    );
+  );
 }

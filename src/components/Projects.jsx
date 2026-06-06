@@ -9,8 +9,20 @@ import ProjectModal from "./ProjectModal";
 
 import { fadeUp } from "./animations";
 
+import {
+  useLanguage,
+} from "../context/LanguageContext";
+
+import translations from "../data/translations";
+
 export default function Projects() {
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] =
+    useState(null);
+
+  const { language } =
+    useLanguage();
+
+  const t = translations[language];
 
   return (
     <motion.div
@@ -18,14 +30,16 @@ export default function Projects() {
       variants={fadeUp}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{
+        once: true,
+        amount: 0.2,
+      }}
     >
       <div className="projects-header">
-        <h2>Projects</h2>
+        <h2>{t.projectsTitle}</h2>
 
         <p>
-          A selection of projects focused on clean UI,
-          frontend architecture, and user experience.
+          {t.projectsDescription}
         </p>
       </div>
 
@@ -34,7 +48,9 @@ export default function Projects() {
           <ProjectCard
             key={project.id}
             project={project}
-            onClick={() => setSelectedProject(project)}
+            onClick={() =>
+              setSelectedProject(project)
+            }
           />
         ))}
       </div>
@@ -42,7 +58,9 @@ export default function Projects() {
       {selectedProject && (
         <ProjectModal
           project={selectedProject}
-          onClose={() => setSelectedProject(null)}
+          onClose={() =>
+            setSelectedProject(null)
+          }
         />
       )}
     </motion.div>

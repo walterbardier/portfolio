@@ -1,10 +1,20 @@
 const projects = [
   {
     id: 1,
-    name: "Lavender Shop",
-    type: "E-Commerce",
-    description:
-      "A minimalist fashion e-commerce experience designed around a calm and contemporary brand identity. The project explores how light, transparency, and motion can shape perception, creating an atmosphere that feels refined, peaceful, and effortless. Through subtle animations and a clean visual language, the interface aims to make browsing feel less like navigating a store and more like engaging with the brand itself.",
+    name: {
+      en: "Lavender Shop",
+      es: "Lavender Shop",
+    },
+    type: {
+      en: "E-Commerce",
+      es: "Tienda Online",
+    },
+    description: {
+      en: "A minimalist fashion e-commerce experience designed around a calm and contemporary brand identity. The project explores how light, transparency, and motion can shape perception, creating an atmosphere that feels refined, peaceful, and effortless. Through subtle animations and a clean visual language, the interface aims to make browsing feel less like navigating a store and more like engaging with the brand itself.",
+
+      es: "Una experiencia de e-commerce de moda minimalista diseñada alrededor de una identidad de marca serena y contemporánea. El proyecto explora cómo la luz, la transparencia y el movimiento pueden influir en la percepción, creando una atmósfera refinada, tranquila y natural. A través de animaciones sutiles y un lenguaje visual limpio, la interfaz busca que navegar se sienta menos como recorrer una tienda y más como interactuar con la propia marca.",
+    },
+
     technologies: ["React", "JavaScript", "Vite"],
     github: "https://github.com/walterbardier/lavender-shop",
     demo: "https://lavender-shop-wb.vercel.app",
@@ -21,10 +31,19 @@ const projects = [
 
   {
     id: 2,
-    name: "Velv",
-    type: "UI/UX & Product Design",
-    description:
-      "A social recipe-sharing app designed to make cooking more accessible, personalized, and collaborative. Velv combines community-driven content with an intelligent AI assistant that learns user preferences, dietary restrictions, and cooking skills to deliver tailored recipe recommendations and automatically generate shopping lists from selected meals.",
+    name: {
+      en: "Velv",
+      es: "Velv",
+    },
+    type: {
+      en: "UI/UX & Product Design",
+      es: "UI/UX & Product Design",
+    },
+    description: {
+      en: "A social recipe-sharing app designed to make cooking more accessible, personalized, and collaborative. Velv combines community-driven content with an intelligent AI assistant that learns user preferences, dietary restrictions, and cooking skills to deliver tailored recipe recommendations and automatically generate shopping lists from selected meals.",
+      es: "Una aplicación de compartir recetas social diseñada para hacer la cocina más accesible, personalizada y colaborativa. Velv combina contenido impulsado por la comunidad con un asistente inteligente de IA que aprende las preferencias del usuario, restricciones dietéticas y habilidades de cocina para entregar recomendaciones de recetas adaptadas y generar listas de compra automáticamente desde las comidas seleccionadas.",
+    },
+
     technologies: ["Figma", "Adobe Illustrator"],
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
@@ -49,10 +68,19 @@ const projects = [
 
   {
     id: 3,
-    name: "Scoops & Co.",
-    type: "UI/UX & Product Design",
-    description:
-      "A branding and product design exploration for a fictional artisanal ice cream brand inspired by Retro Americana culture. The project focuses on visual identity, moodboard development, packaging direction, and UI/UX concepts, created in Illustrator and Figma.",
+    name: {
+      en: "Scoops & Co.",
+      es: "Scoops & Co.",
+    },
+    type: {
+      en: "UI/UX & Product Design",
+      es: "UI/UX & Product Design",
+    },
+    description: {
+      en: "A branding and product design exploration for a fictional artisanal ice cream brand inspired by Retro Americana culture. The project focuses on visual identity, moodboard development, packaging direction, and UI/UX concepts, created in Illustrator and Figma.",
+      es: "Una exploración de diseño de marca y producto para una marca de helados artesanales ficticia inspirada en la cultura Retro Americana. El proyecto se centra en el desarrollo de la identidad visual, la creación de un moodboard, la dirección del empaquetado y los conceptos de UI/UX, creados en Illustrator y Figma.",
+    },
+
     technologies: ["Figma", "Adobe Illustrator"],
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
@@ -68,10 +96,19 @@ const projects = [
 
   {
     id: 4,
-    name: "Recoverly",
-    type: "Wellness & Habit Tracker",
-    description:
-      "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions. Designed to support people recovering from difficult mental periods through habit tracking, mindfulness, and emotional reflection. The app features a reactive virtual companion that acts as both a pet to care for and a reflection of the user themselves.",
+    name: {
+      en: "Recoverly",
+      es: "Recoverly",
+    },
+    type: {
+      en: "Wellness & Habit Tracker",
+      es: "Bienestar & Tracker de Hábitos",
+    },
+    description: {
+      en: "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions. Designed to support people recovering from difficult mental periods through habit tracking, mindfulness, and emotional reflection. The app features a reactive virtual companion that acts as both a pet to care for and a reflection of the user themselves.",
+      es: "Una experiencia de bienestar y cuidado personal enfocada en el seguimiento de hábitos, mindfulness, reflexión emocional y interacciones inmersivas inspiradas en el glassmorphism. Diseñada para apoyar a las personas en recuperación de períodos mentales difíciles a través del seguimiento de hábitos, mindfulness y reflexión emocional. La aplicación cuenta con un compañero virtual reactivo que actúa como mascota para cuidar y como reflejo del propio usuario.",
+    },
+
     technologies: ["React", "JavaScript", "HTML", "CSS", "Vite", "DnD Kit"],
     github: "https://github.com/walterbardier/recoverly",
     demo: "https://recoverly-wb.vercel.app",
@@ -100,10 +137,19 @@ const projects = [
 
   {
     id: 5,
-    name: "X Redesign Concept",
-    type: "UI/UX Design",
-    description:
-      "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
+    name: {
+      en: "X Redesign Concept",
+      es: "X Redesign Concept",
+    },
+    type: {
+      en: "UI/UX Design",
+      es: "UI/UX Design",
+    },
+    description: {
+      en: "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
+      es: "Un concepto de rediseño moderno de X (Twitter) enfocado en diseños limpios, transiciones suaves y interacciones de UI premium para una experiencia de usuario refinada.",
+    },
+
     technologies: ["React", "JavaScript", "Framer Motion", "Lucide Icons", "Figma"],
     github: "https://github.com/walterbardier/portfolio",
     demo: "https://x-redesign.vercel.app",
@@ -122,10 +168,19 @@ const projects = [
 
   {
     id: 6,
-    name: "Overwatch 2 UI Concept",
-    type: "UI Concept Design",
-    description:
-      "A fan-made project created for practice, focused on redesigning the Overwatch 2 website with a stronger visual identity, improved layout structure, and enhanced user interface aesthetics.",
+    name: {
+      en: "Overwatch 2 UI Concept",
+      es: "Overwatch 2 Concepto de UI",
+    },
+    type: {
+      en: "UI Concept Design",
+      es: "UI Concept Design",
+    },
+    description: {
+      en: "A fan-made project created for practice, focused on redesigning the Overwatch 2 website with a stronger visual identity, improved layout structure, and enhanced user interface aesthetics.",
+      es: "Un proyecto hecho por fans creado para practicar, enfocado en rediseñar el sitio web de Overwatch 2 con una identidad visual más fuerte, una estructura de diseño mejorada y una estética de interfaz de usuario mejorada.",
+    },
+
     technologies: ["HTML", "CSS"],
     github: "https://github.com/walterbardier/overwatch2",
     // demo: "#",
@@ -150,10 +205,19 @@ const projects = [
 
   {
     id: 7,
-    name: "Portfolio UI",
-    type: "UI/UX Design",
-    description:
-      "A modern portfolio concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
+    name: {
+      en: "Portfolio UI",
+      es: "Portfolio UI",
+    },
+    type: {
+      en: "UI/UX Design",
+      es: "UI/UX Design",
+    },
+    description: {
+      en: "A modern portfolio concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
+      es: "Un concepto de portfolio moderno enfocado en diseños limpios, transiciones suaves y interacciones de UI premium para una experiencia de usuario refinada.",
+    },
+
     technologies: ["Figma", "JavaScript", "React"],
     github: "https://github.com/walterbardier/portfolio",
     demo: "https://portfolio-walterbardier.vercel.app",
@@ -169,10 +233,19 @@ const projects = [
 
   {
     id: 8,
-    name: "Rio Negro Conectado",
-    type: "Full Stack Web App (PHP)",
-    description:
-      "A web platform designed to improve organization and management of complaints and suggestions sent to the Intendencia of Río Negro, Uruguay. It allows citizens to submit concerns or notifications, which can be reviewed, responded to, and tracked by the municipality, creating a direct communication channel between citizens and government.",
+    name: {
+      en: "Río Negro Conectado",
+      es: "Río Negro Conectado",
+    },
+    type: {
+      en: "Full Stack Web App",
+      es: "Aplicación Web Full Stack",
+    },
+    description: {
+      en: "A web platform designed to improve organization and management of complaints and suggestions sent to the Intendencia of Río Negro, Uruguay. It allows citizens to submit concerns or notifications, which can be reviewed, responded to, and tracked by the municipality, creating a direct communication channel between citizens and government.",
+      es: "Una plataforma web diseñada para mejorar la organización y gestión de quejas y sugerencias enviadas a la Intendencia de Río Negro, Uruguay. Permite a los ciudadanos enviar inquietudes o notificaciones, que pueden ser revisadas, respondidas y rastreadas por la municipalidad, creando un canal de comunicación directo entre ciudadanos y gobierno.",
+    },
+
     technologies: ["PHP", "MySQL", "HTML", "CSS"],
     github: "https://github.com/walterbardier/proyecto",
     // demo: "#",

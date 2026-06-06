@@ -1009,3 +1009,29 @@ body::after {
 .secondary-button:active {
   transform: translateY(-1px) scale(0.98);
 }
+
+.language-switcher {
+  display: flex;
+  gap: 4px;
+  margin-left: 1rem;
+}
+
+.language-switcher button {
+  background: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+
+  opacity: 0.5;
+
+  transition: 0.3s;
+}
+
+.language-switcher button:hover {
+  opacity: 1;
+}
+
+.language-switcher button.active {
+  opacity: 1;
+  font-weight: 600;
+}

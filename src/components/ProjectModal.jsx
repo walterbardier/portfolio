@@ -10,6 +10,12 @@ import {
 
 import { HiPlay } from "react-icons/hi2";
 
+import {
+  useLanguage,
+} from "../context/LanguageContext";
+
+import translations from "../data/translations";
+
 export default function ProjectModal({
   project,
   onClose,
@@ -20,6 +26,11 @@ export default function ProjectModal({
   const [fullscreen, setFullscreen] =
     useState(false);
 
+  const { language } =
+    useLanguage();
+
+  const t = translations[language];
+
   useEffect(() => {
     const interval = setInterval(() => {
       if (!fullscreen) {
@@ -27,20 +38,24 @@ export default function ProjectModal({
       }
     }, 4000);
 
-    return () => clearInterval(interval);
+    return () =>
+      clearInterval(interval);
   });
 
   useEffect(() => {
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow =
+      "hidden";
 
     return () => {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow =
+        "auto";
     };
   }, []);
 
   const nextImage = () => {
     setCurrentImage((prev) =>
-      prev === project.images.length - 1
+      prev ===
+      project.images.length - 1
         ? 0
         : prev + 1
     );
@@ -62,7 +77,9 @@ export default function ProjectModal({
       >
         <div
           className="modal glass"
-          onClick={(e) => e.stopPropagation()}
+          onClick={(e) =>
+            e.stopPropagation()
+          }
         >
           <div className="modal-image-wrapper">
             <button
@@ -73,17 +90,29 @@ export default function ProjectModal({
             </button>
 
             <img
-              src={project.images[currentImage]}
-              alt={project.name}
+              src={
+                project.images[
+                  currentImage
+                ]
+              }
+              alt={
+                project.name[
+                  language
+                ]
+              }
               className="modal-image"
-              onClick={() => setFullscreen(true)}
+              onClick={() =>
+                setFullscreen(true)
+              }
             />
 
             <div
               className="expand-pill"
-              onClick={() => setFullscreen(true)}
+              onClick={() =>
+                setFullscreen(true)
+              }
             >
-              Click to expand
+              {t.expand}
             </div>
 
             <button
@@ -97,15 +126,31 @@ export default function ProjectModal({
           <div className="modal-content">
             <div className="modal-top">
               <div>
-                <h2>{project.name}</h2>
+                <h2>
+                  {
+                    project.name[
+                      language
+                    ]
+                  }
+                </h2>
 
-                <p>{project.description}</p>
+                <p>
+                  {
+                    project
+                      .description[
+                      language
+                    ]
+                  }
+                </p>
               </div>
 
-              {project.type !== "UI/UX & Product Design" && (
+              {project.type.en !==
+                "UI/UX & Product Design" && (
                 <div className="modal-buttons">
                   <a
-                    href={project.github}
+                    href={
+                      project.github
+                    }
                     target="_blank"
                     rel="noopener noreferrer"
                     className="icon-button"
@@ -113,27 +158,46 @@ export default function ProjectModal({
                     <FaGithub />
                   </a>
 
-                  {project.name !== "Overwatch 2 UI Concept" &&
-                    project.name !== "Rio Negro Conectado" && (
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="live-demo-button"
-                      >
-                        <HiPlay />
+                  {project.name.en ===
+                    "Portfolio UI" ? (
+                    <div className="live-demo-button current-site">
+                      <span>
+                        {language === "es"
+                          ? "Estás aquí"
+                          : "You're here"}
+                      </span>
+                    </div>
+                  ) : (
+                    project.name.en !==
+                      "Overwatch 2 UI Concept" &&
+                    project.name.en !==
+                      "Río Negro Conectado" && (
+                        <a
+                          href={project.demo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="live-demo-button"
+                        >
+                          <HiPlay />
 
-                        <span>Live Demo</span>
-                      </a>
-                    )}
+                          <span>
+                            {t.liveDemo}
+                          </span>
+                        </a>
+                      )
+                  )}
                 </div>
               )}
             </div>
 
             <div className="project-tags">
-              {project.technologies.map((tech) => (
-                <span key={tech}>{tech}</span>
-              ))}
+              {project.technologies.map(
+                (tech) => (
+                  <span key={tech}>
+                    {tech}
+                  </span>
+                )
+              )}
             </div>
           </div>
         </div>
@@ -142,7 +206,9 @@ export default function ProjectModal({
       {fullscreen && (
         <div
           className="fullscreen-gallery"
-          onClick={() => setFullscreen(false)}
+          onClick={() =>
+            setFullscreen(false)
+          }
         >
           <button
             className="fullscreen-arrow left"
@@ -155,8 +221,16 @@ export default function ProjectModal({
           </button>
 
           <img
-            src={project.images[currentImage]}
-            alt={project.name}
+            src={
+              project.images[
+                currentImage
+              ]
+            }
+            alt={
+              project.name[
+                language
+              ]
+            }
             className="fullscreen-image"
           />
 
