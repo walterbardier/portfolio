@@ -88,8 +88,10 @@ const projects = [
     },
 
     technologies: ["Figma", "Adobe Illustrator", "Wireframing", "Prototyping"],
+    
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
+
     images: [      
       "/screenshots/velv/Velv1.png",
       "/screenshots/velv/Velv2.png",
@@ -125,8 +127,10 @@ const projects = [
     },
 
     technologies: ["Figma", "Adobe Illustrator", "Wireframing", "Prototyping"],
+    
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
+
     images: [
       "/screenshots/scoops-and-co/website-1.png",
       "/screenshots/scoops-and-co/moodboard-1.png",
@@ -153,8 +157,10 @@ const projects = [
     },
 
     technologies: ["React", "JavaScript", "HTML", "CSS", "Vite", "DnD Kit"],
+    
     github: "https://github.com/walterbardier/recoverly",
     demo: "https://recoverly-wb.vercel.app",
+    
     images: [
       "/screenshots/recoverly/dashboard-1.png",
       "/screenshots/recoverly/dashboard-2.png",
@@ -194,8 +200,10 @@ const projects = [
     },
 
     technologies: ["React", "JavaScript", "Framer Motion", "Lucide Icons", "Figma"],
+    
     github: "https://github.com/walterbardier/portfolio",
     demo: "https://x-redesign.vercel.app",
+    
     images: [
       "/screenshots/x-redesign/feed-1.png",
       "/screenshots/x-redesign/feed-2.png",
@@ -225,8 +233,10 @@ const projects = [
     },
 
     technologies: ["HTML", "CSS"],
+    
     github: "https://github.com/walterbardier/overwatch2",
     // demo: "#",
+    
     images: [
       "/screenshots/overwatch2/home-1.png",
       "/screenshots/overwatch2/heroes-1.png",
@@ -262,8 +272,10 @@ const projects = [
     },
 
     technologies: ["Figma", "JavaScript", "React"],
+    
     github: "https://github.com/walterbardier/portfolio",
     demo: "https://portfolio-walterbardier.vercel.app",
+    
     images: [
       "/screenshots/portfolio/home.png",
       "/screenshots/portfolio/projects.png",
@@ -290,8 +302,10 @@ const projects = [
     },
 
     technologies: ["PHP", "MySQL", "HTML", "CSS"],
+    
     github: "https://github.com/walterbardier/proyecto",
     // demo: "#",
+    
     images: [
       "/screenshots/rio-negro-conectado/login-1.png",
       "/screenshots/rio-negro-conectado/login-2.png",
