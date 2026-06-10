@@ -15,7 +15,7 @@ const projects = [
       es: "Una experiencia de e-commerce de moda minimalista diseñada alrededor de una identidad de marca serena y contemporánea. El proyecto explora cómo la luz, la transparencia y el movimiento pueden influir en la percepción, creando una atmósfera refinada, tranquila y natural. A través de animaciones sutiles y un lenguaje visual limpio, la interfaz busca que navegar se sienta menos como recorrer una tienda y más como interactuar con la propia marca.",
     },
 
-    technologies: ["React", "JavaScript", "Vite"],
+    technologies: ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
     github: "https://github.com/walterbardier/lavender-shop",
     demo: "https://lavender-shop-wb.vercel.app",
     images: [
@@ -87,7 +87,7 @@ const projects = [
       es: "Una aplicación social para compartir recetas, diseñada para hacer que la cocina sea más accesible, personalizada y colaborativa. Velv combina contenido impulsado por la comunidad con un asistente inteligente de IA que aprende las preferencias del usuario, sus restricciones alimentarias y sus habilidades culinarias para ofrecer recomendaciones de recetas a medida y generar automáticamente listas de compras a partir de los platos seleccionados.",
     },
 
-    technologies: ["Figma", "Adobe Illustrator"],
+    technologies: ["Figma", "Adobe Illustrator", "UX Research", "Wireframing", "Prototyping"],
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
     images: [      
@@ -124,7 +124,7 @@ const projects = [
       es: "Un proyecto de branding y diseño de producto para una marca de helados artesanales inspirada en la cultura Retro Americana. El proyecto presenta un caso de estudio integral que desarrolla la identidad visual y la dirección de packaging para alinearse con la visión del cliente, junto con un concepto de diseño web UI/UX de estilo editorial, creado en Illustrator y Figma..",
     },
 
-    technologies: ["Figma", "Adobe Illustrator"],
+    technologies: ["Figma", "Adobe Illustrator", "UX Research", "Wireframing", "Prototyping"],
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
     images: [
