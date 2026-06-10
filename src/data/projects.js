@@ -31,6 +31,49 @@ const projects = [
 
   {
     id: 2,
+  
+    name: {
+      en: "iPhone 14 Pro Max | Showcase",
+      es: "iPhone 14 Pro Max | Showcase",
+    },
+  
+    type: {
+      en: "Product Experience",
+      es: "Experiencia de Producto",
+    },
+  
+    description: {
+      en: "An immersive product showcase inspired by Apple's keynote presentations and design philosophy. The project combines React, Three.js, and modern motion design techniques to create a premium browsing experience centered around the iPhone 14 Pro Max. Through interactive 3D visuals, glassmorphism, layered transparency, and smooth animations, the experience explores depth, storytelling, and the elegance of Apple's visual language.",
+  
+      es: "Una experiencia inmersiva inspirada en las presentaciones de producto y la filosofía de diseño de Apple. El proyecto combina React, Three.js y técnicas modernas de motion design para crear una experiencia premium centrada en el iPhone 14 Pro Max. A través de visuales 3D interactivos, glassmorphism, transparencias en capas y animaciones fluidas, la experiencia explora la profundidad, la narrativa visual y la elegancia característica del lenguaje de diseño de Apple.",
+    },
+  
+    technologies: [
+      "React",
+      "Three.js",
+      "React Three Fiber",
+      "Framer Motion",
+      "JavaScript",
+      "Vite",
+    ],
+  
+    github: "https://github.com/walterbardier/iphone-showcase",
+  
+    demo: "https://iphone-showcase-walterbardier.vercel.app",
+  
+    images: [
+      "/screenshots/iphone-showcase/hero-1.png",
+      "/screenshots/iphone-showcase/hero-2.png",
+      "/screenshots/iphone-showcase/camera.png",
+      "/screenshots/iphone-showcase/battery.png",
+      "/screenshots/iphone-showcase/features.png",
+      "/screenshots/iphone-showcase/showcase-1.png",
+      "/screenshots/iphone-showcase/showcase-2.png",
+    ],
+  },
+
+  {
+    id: 3,
     name: {
       en: "Velv",
       es: "Velv",
@@ -67,7 +110,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: {
       en: "Scoops & Co.",
       es: "Scoops & Co.",
@@ -95,7 +138,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: {
       en: "Recoverly",
       es: "Recoverly",
@@ -136,7 +179,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: {
       en: "X Redesign Concept",
       es: "X Redesign Concept",
@@ -167,7 +210,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: {
       en: "Overwatch 2 UI Concept",
       es: "Overwatch 2 Concepto de UI",
@@ -204,7 +247,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: {
       en: "Portfolio UI",
       es: "Portfolio UI",
@@ -232,7 +275,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: {
       en: "Río Negro Conectado",
       es: "Río Negro Conectado",
