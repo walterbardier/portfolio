@@ -87,7 +87,7 @@ const projects = [
       es: "Una aplicación social para compartir recetas, diseñada para hacer que la cocina sea más accesible, personalizada y colaborativa. Velv combina contenido impulsado por la comunidad con un asistente inteligente de IA que aprende las preferencias del usuario, sus restricciones alimentarias y sus habilidades culinarias para ofrecer recomendaciones de recetas a medida y generar automáticamente listas de compras a partir de los platos seleccionados.",
     },
 
-    technologies: ["Figma", "Adobe Illustrator", "UX Research", "Wireframing", "Prototyping"],
+    technologies: ["Figma", "Adobe Illustrator", "Wireframing", "Prototyping"],
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
     images: [      
@@ -124,7 +124,7 @@ const projects = [
       es: "Un proyecto de branding y diseño de producto para una marca de helados artesanales inspirada en la cultura Retro Americana. El proyecto presenta un caso de estudio integral que desarrolla la identidad visual y la dirección de packaging para alinearse con la visión del cliente, junto con un concepto de diseño web UI/UX de estilo editorial, creado en Illustrator y Figma..",
     },
 
-    technologies: ["Figma", "Adobe Illustrator", "UX Research", "Wireframing", "Prototyping"],
+    technologies: ["Figma", "Adobe Illustrator", "Wireframing", "Prototyping"],
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
     images: [
