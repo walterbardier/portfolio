@@ -27,7 +27,7 @@ const translations = {
             "Projects",
 
         projectsDescription:
-            "Projects focused on clean UI, frontend, and UX. Primarily design and frontend-driven, complemented by backend and full-stack solutions.",
+            "Frontend and UI/UX Design projects focused on creating intuitive, modern, and functional digital experiences, complemented by Backend and Full-Stack solutions.",
 
         // Contact
         contactTitle:
@@ -86,7 +86,7 @@ const translations = {
             "Proyectos",
 
         projectsDescription:
-            "Proyectos centrados en UI limpia, frontend y UX. Enfocados principalmente en diseño e interacción, complementados con soluciones backend y full-stack.",
+            "Proyectos de Frontend y UI/UX Design enfocados en crear experiencias digitales intuitivas, modernas y funcionales, complementados con soluciones Backend y Full-Stack.",
 
 
         // Contact
