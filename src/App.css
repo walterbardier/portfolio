@@ -242,6 +242,65 @@ main::before {
   margin-top: 60px;
 }
 
+.projects-filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+.filter-button {
+  padding: 12px 22px;
+
+  border-radius: 999px;
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  background: rgba(255,255,255,0.04);
+
+  color: rgba(255,255,255,0.7);
+
+  backdrop-filter: blur(20px);
+
+  cursor: pointer;
+
+  transition:
+    all 0.3s ease;
+}
+
+.filter-button:hover {
+  background: rgba(255,255,255,0.08);
+
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+.filter-button.active {
+  background: white;
+
+  color: black;
+
+  border-color: transparent;
+
+  box-shadow:
+    0 10px 30px rgba(255,255,255,0.15);
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+.filter-button svg {
+  font-size: 16px;
+}
+
 .project-card {
   overflow: hidden;
 

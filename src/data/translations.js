@@ -59,6 +59,11 @@ const translations = {
         expand:
             "Click to expand",
             
+        filterAll: "All",
+        filterFrontend: "Frontend",
+        filterDesign: "UI/UX & Product Design",
+        filterFullStack: "Full-Stack",
+        
     },
   
     es: {
@@ -121,6 +126,11 @@ const translations = {
 
         expand:
             "Click para expandir",
+
+        filterAll: "Todos",
+        filterFrontend: "Frontend",
+        filterDesign: "UI/UX & Product Design",
+        filterFullStack: "Full-Stack",
 
     },
 
