@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaChevronLeft,
   FaChevronRight,
+  FaBehance,
 } from "react-icons/fa";
 
 import { HiPlay } from "react-icons/hi2";
@@ -143,51 +144,70 @@ export default function ProjectModal({
                   }
                 </p>
               </div>
-
-              {project.type.en !==
-                "UI/UX & Product Design" && (
-                <div className="modal-buttons">
+              
+              {/* Opciones de botones segun caso */}
+              <div className="modal-buttons">
+                {/* Si el tipo es UI/UX... -> Be */}
+                {project.type.en ===
+                "UI/UX & Product Design" ? (
                   <a
-                    href={
-                      project.github
-                    }
+                    href={project.caseStudy}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="icon-button"
+                    className="live-demo-button behance-button"
                   >
-                    <FaGithub />
+                    <FaBehance />
+
+                    <span>
+                      {t.caseStudy}
+                    </span>
                   </a>
+                ) : (
+                  <>
+                  {/* Sino... -> Github */}
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="icon-button"
+                    >
+                      <FaGithub />
+                    </a>
 
-                  {project.name.en ===
+                    {/* Si nombre es Portfolio UI.. -> "Estás aquí" (sin Live Demo) */}
+                    {project.name.en ===
                     "Portfolio UI" ? (
-                    <div className="live-demo-button current-site">
-                      <span>
-                        {language === "es"
-                          ? "Estás aquí :)"
-                          : "You're here :)"}
-                      </span>
-                    </div>
-                  ) : (
-                    project.name.en !==
-                      "Overwatch 2 UI Concept" &&
-                    project.name.en !==
-                      "Río Negro Conectado" && (
-                        <a
-                          href={project.demo}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="live-demo-button"
-                        >
-                          <HiPlay />
+                      <div className="live-demo-button current-site">
+                        <span>
+                          {language === "es"
+                            ? "Estás aquí :)"
+                            : "You're here :)"}
+                        </span>
+                      </div>
+                    ) : (
+                      // Si el nombre no es Ow2 o RNC... -> Live Demo
+                      // (Sino, no incluye botón de Live Demo)
+                      project.name.en !==
+                        "Overwatch 2 UI Concept" &&
+                      project.name.en !==
+                        "Río Negro Conectado" && (
+                          <a
+                            href={project.demo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="live-demo-button"
+                          >
+                            <HiPlay />
 
-                          <span>
-                            {t.liveDemo}
-                          </span>
-                        </a>
-                      )
-                  )}
-                </div>
-              )}
+                            <span>
+                              {t.liveDemo}
+                            </span>
+                          </a>
+                        )
+                    )}
+                  </>
+                )}
+              </div>
             </div>
 
             <div className="project-tags">

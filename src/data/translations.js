@@ -53,6 +53,9 @@ const translations = {
         liveDemo:
             "Live Demo",
 
+        caseStudy:
+            "Explore the Process",
+
         expand:
             "Click to expand",
             
@@ -112,6 +115,9 @@ const translations = {
         // Project Modal
         liveDemo:
             "Live Demo",
+
+        caseStudy:
+            "Ver proceso de diseño",
 
         expand:
             "Click para expandir",

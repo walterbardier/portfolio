@@ -5,10 +5,12 @@ const projects = [
       en: "Lavender Shop",
       es: "Lavender Shop",
     },
+
     type: {
       en: "E-Commerce",
       es: "Tienda Online",
     },
+
     description: {
       en: "A minimalist fashion e-commerce experience designed around a calm and contemporary brand identity. The project explores how light, transparency, and motion can shape perception, creating an atmosphere that feels refined, peaceful, and effortless. Through subtle animations and a clean visual language, the interface aims to make browsing feel less like navigating a store and more like engaging with the brand itself.",
 
@@ -16,8 +18,11 @@ const projects = [
     },
 
     technologies: ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
+
     github: "https://github.com/walterbardier/lavender-shop",
+
     demo: "https://lavender-shop-wb.vercel.app",
+
     images: [
       "/screenshots/lavender-shop/home-1.png",
       "/screenshots/lavender-shop/shop-1.png",
@@ -78,10 +83,12 @@ const projects = [
       en: "Velv",
       es: "Velv",
     },
+
     type: {
       en: "UI/UX & Product Design",
       es: "UI/UX & Product Design",
     },
+
     description: {
       en: "A social recipe-sharing app designed to make cooking more accessible, personalized, and collaborative. Velv combines community-driven content with an AI assistant that learns user preferences, dietary restrictions, and cooking skills to deliver tailored recipe recommendations and automatically generate shopping lists from selected meals.",
       es: "Una aplicación social para compartir recetas, diseñada para hacer que la cocina sea más accesible, personalizada y colaborativa. Velv combina contenido impulsado por la comunidad con un asistente inteligente de IA que aprende las preferencias del usuario, sus restricciones alimentarias y sus habilidades culinarias para ofrecer recomendaciones de recetas a medida y generar automáticamente listas de compras a partir de los platos seleccionados.",
@@ -91,6 +98,9 @@ const projects = [
     
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
+
+    caseStudy:
+      "https://www.behance.net/gallery/250981181/UIUX-Design-for-an-AI-Powered-Social-Cooking-Platform",
 
     images: [      
       "/screenshots/velv/Velv1.png",
@@ -130,6 +140,9 @@ const projects = [
     
     // github: "https://github.com/walterbardier/portfolio",
     // demo: "https://x-redesign.vercel.app",
+
+    caseStudy:
+      "https://www.behance.net/gallery/250982467/Scoops-Co-Product-Design-UI-Web-Experience",
 
     images: [
       "/screenshots/scoops-and-co/website-1.png",
