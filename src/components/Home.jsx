@@ -8,7 +8,10 @@ import {
 import {
   FaGithub,
   FaLinkedinIn,
+  FaBehance,
 } from "react-icons/fa";
+
+
 
 import {
   useLanguage,
@@ -53,10 +56,9 @@ export default function Home() {
           {t.heroDescription}
         </motion.p>
 
-        <motion.div
-          className="home-buttons"
-          variants={fadeUp}
-        >
+        {/* Buttons */}
+        <motion.div className="home-buttons" variants={fadeUp}>
+          {/* View projects */}
           <a
             href="#projects"
             className="primary-button"
@@ -64,6 +66,7 @@ export default function Home() {
             {t.viewProjects}
           </a>
 
+          {/* Contact */}
           <a
             href="#contact"
             className="secondary-button"
@@ -71,6 +74,7 @@ export default function Home() {
             {t.contactMe}
           </a>
 
+          {/* Btn Github */}
           <a
             href="https://github.com/walterbardier"
             target="_blank"
@@ -80,6 +84,17 @@ export default function Home() {
             <FaGithub />
           </a>
 
+          {/* Btn Behance */}
+          <a
+            href="https://www.behance.net/walterbardier/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+          >
+            <FaBehance />
+          </a>
+
+          {/* Btn Linkedin */}
           <a
             href="https://www.linkedin.com/in/walterbardier/"
             target="_blank"
@@ -88,8 +103,11 @@ export default function Home() {
           >
             <FaLinkedinIn />
           </a>
+
         </motion.div>
+
       </motion.div>
+
     </motion.div>
   );
 }
