@@ -77,13 +77,62 @@ const projects = [
   {
     id: 3,
     name: {
+      en: "Rentio",
+      es: "Rentio",
+    },
+  
+    type: {
+      en: "UX/UI & Product Design",
+      es: "UX/UI & Product Design",
+    },
+  
+    description: {
+      en: "A mobile apartment rental platform designed to simplify how people discover and connect with homes in Montevideo. Rentio combines map and list-based browsing, advanced search filters, and direct messaging with landlords to create a seamless, transparent, and user-friendly rental experience.",
+      es: "Una plataforma móvil de alquiler de apartamentos diseñada para simplificar la forma en que las personas encuentran y se conectan con viviendas en Montevideo. Rentio combina exploración mediante mapa y lista, filtros avanzados y mensajería directa con propietarios para ofrecer una experiencia de alquiler fluida, transparente y fácil de usar.",
+    },
+  
+    fullStack: false,
+  
+    technologies: [
+      "Figma",
+      "Adobe Illustrator",
+      "Wireframing",
+      "Prototyping",
+      "Design System",
+      "Brand Identity",
+    ],
+  
+    // github: "",
+    // demo: "",
+    caseStudy:
+      "https://www.behance.net/gallery/251467273/Rentio-Apartment-Rental-Mobile-App-UXUI-Design",
+  
+    images: [
+      // Renders
+      "/screenshots/rentio/mockups.png",
+      "/screenshots/rentio/UI.png",
+
+      // Case Study: Img
+      "/screenshots/rentio/design_roadmap.png",
+      "/screenshots/rentio/empathize.png",
+      "/screenshots/rentio/problem.png",
+      "/screenshots/rentio/design_process.png",
+      "/screenshots/rentio/user_personas.png",
+      "/screenshots/rentio/information_arquitecture.png",
+      "/screenshots/rentio/end.png",
+    ],
+  },
+
+  {
+    id: 4,
+    name: {
       en: "Velv",
       es: "Velv",
     },
 
     type: {
-      en: "UI/UX & Product Design",
-      es: "UI/UX & Product Design",
+      en: "UX/UI & Product Design",
+      es: "UX/UI & Product Design",
     },
 
     description: {
@@ -120,18 +169,18 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: {
       en: "Scoops & Co.",
       es: "Scoops & Co.",
     },
     type: {
-      en: "UI/UX & Product Design",
-      es: "UI/UX & Product Design",
+      en: "UX/UI & Product Design",
+      es: "UX/UI & Product Design",
     },
     description: {
-      en: "A branding and product design project for an artisanal ice cream brand inspired by Retro Americana culture. The project features a comprehensive case study developing the visual identity and packaging direction to align with the client’s vision, paired with an editorial UI/UX web design concept created in Illustrator and Figma.",
-      es: "Un proyecto de branding y diseño de producto para una marca de helados artesanales inspirada en la cultura Retro Americana. El proyecto presenta un caso de estudio integral que desarrolla la identidad visual y la dirección de packaging para alinearse con la visión del cliente, junto con un concepto de diseño web UI/UX de estilo editorial, creado en Illustrator y Figma..",
+      en: "A branding and product design project for an artisanal ice cream brand inspired by Retro Americana culture. The project features a comprehensive case study developing the visual identity and packaging direction to align with the client’s vision, paired with an editorial UX/UI web design concept created in Illustrator and Figma.",
+      es: "Un proyecto de branding y diseño de producto para una marca de helados artesanales inspirada en la cultura Retro Americana. El proyecto presenta un caso de estudio integral que desarrolla la identidad visual y la dirección de packaging para alinearse con la visión del cliente, junto con un concepto de diseño web UX/UI de estilo editorial, creado en Illustrator y Figma..",
     },
 
     fullStack: false,
@@ -154,7 +203,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: {
       en: "Recoverly",
       es: "Recoverly",
@@ -199,14 +248,14 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: {
       en: "X Redesign Concept",
       es: "X Redesign Concept",
     },
     type: {
-      en: "UI/UX Design",
-      es: "UI/UX Design",
+      en: "Frontend & UX Reasearch",
+      es: "Frontend & UX Reasearch",
     },
     description: {
       en: "A modern X (Twitter) redesign concept focused on clean layouts, smooth transitions and premium UI interactions for a refined user experience.",
@@ -234,14 +283,14 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: {
       en: "Overwatch 2 UI Concept",
       es: "Overwatch 2 Concepto de UI",
     },
     type: {
-      en: "UI Concept Design",
-      es: "UI Concept Design",
+      en: "Frontend & UX Reasearch",
+      es: "Frontend & UX Reasearch",
     },
     description: {
       en: "A fan-made UX/UI project focused on redesigning the Overwatch 2 website to elevate its digital experience. The project analyzes user flows and interface heuristics to deliver a stronger visual identity, improved content hierarchy, and a fully optimized layout structure designed to enhance player engagement and navigation.",
@@ -275,14 +324,14 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: {
       en: "Portfolio UI",
       es: "Portfolio UI",
     },
     type: {
-      en: "UI/UX Design",
-      es: "UI/UX Design",
+      en: "Frontend & UI Design",
+      es: "Frontend & UI Design",
     },
     description: {
       en: "A modern portfolio concept focused on clean layouts, smooth transitions, and premium UI interactions for a refined user experience.",
@@ -307,14 +356,14 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: {
       en: "Río Negro Conectado",
       es: "Río Negro Conectado",
     },
     type: {
-      en: "Full Stack Web App",
-      es: "Aplicación Web Full Stack",
+      en: "Full-Stack Web App",
+      es: "Aplicación Web Full-Stack",
     },
     description: {
       en: "A web platform designed to improve organization and management of complaints and suggestions sent to the Intendencia of Río Negro, Uruguay. It allows citizens to submit concerns or notifications, which can be reviewed, responded to, and tracked by the municipality, creating a direct communication channel between citizens and government.",

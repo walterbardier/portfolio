@@ -8,7 +8,7 @@ const translations = {
   
         // Home
         heroRole:
-            "Frontend Developer & UI/UX Designer",
+            "Frontend Developer & UX/UI Designer",
   
         heroDescription:
             "Crafting elegant digital experiences through minimal design, modern interfaces, and intentional interactions that prioritize clarity, usability, and visual harmony, while expressing the essence of each brand.",
@@ -20,14 +20,14 @@ const translations = {
         aboutTitle: "About",
   
         aboutText:
-            "Hi, I'm Walter Bardier, a Computer Engineering student from Uruguay with a passion for technology, design, and digital innovation. While I have experience building full-stack projects, my true specialization lies in frontend development and UI/UX design. As a developer and designer, I enjoy transforming complex ideas and client needs into functional, creative, and visually refined digital experiences. My goal is to build modern interfaces that not only look great but also provide intuitive user experiences while staying true to each brand's identity.",
+            "Hi, I'm Walter Bardier, a Computer Engineering student from Uruguay with a passion for technology, design, and digital innovation. While I have experience building full-stack projects, my true specialization lies in frontend development and UX/UI design. As a developer and designer, I enjoy transforming complex ideas and client needs into functional, creative, and visually refined digital experiences. My goal is to build modern interfaces that not only look great but also provide intuitive user experiences while staying true to each brand's identity.",
             
         // Projects
         projectsTitle:
             "Projects",
 
         projectsDescription:
-            "Frontend and UI/UX Design projects focused on creating intuitive, modern, and functional digital experiences, complemented by Backend and Full-Stack solutions.",
+            "Frontend and UX/UI Design projects focused on creating intuitive, modern, and functional digital experiences, complemented by Backend and Full-Stack solutions.",
 
         // Contact
         contactTitle:
@@ -61,7 +61,7 @@ const translations = {
             
         filterAll: "All",
         filterFrontend: "Frontend",
-        filterDesign: "UI/UX & Product Design",
+        filterDesign: "UX/UI & Product Design",
         filterFullStack: "Full-Stack",
         
     },
@@ -75,7 +75,7 @@ const translations = {
 
         // Home
         heroRole:
-            "Desarrollador Frontend & Diseñador UI/UX",
+            "Desarrollador Frontend & Diseñador UX/UI",
     
         heroDescription:
             "Creando experiencias digitales elegantes a través de diseño minimalista, interfaces modernas e interacciones intencionales que priorizan la claridad, la usabilidad y la armonía visual, expresando la esencia de cada marca.",
@@ -87,14 +87,14 @@ const translations = {
         aboutTitle: "Sobre mí",
   
         aboutText:
-            "Hola, soy Walter Bardier, estudiante de Ingeniería en Computación de Uruguay, con una gran pasión por la tecnología, el diseño y la innovación digital. Si bien tengo experiencia en el desarrollo de proyectos full-stack, mi verdadera especialización está en el desarrollo frontend y el diseño UI/UX. Como desarrollador y diseñador, disfruto transformar ideas complejas y necesidades del cliente en experiencias digitales funcionales, creativas y visualmente refinadas. Mi objetivo es construir interfaces modernas que no solo se vean excelentes, sino que también ofrezcan experiencias de usuario intuitivas, manteniéndose fieles a la identidad de cada marca.",
+            "Hola, soy Walter Bardier, estudiante de Ingeniería en Computación de Uruguay, con una gran pasión por la tecnología, el diseño y la innovación digital. Si bien tengo experiencia en el desarrollo de proyectos full-stack, mi verdadera especialización está en el desarrollo frontend y el diseño UX/UI. Como desarrollador y diseñador, disfruto transformar ideas complejas y necesidades del cliente en experiencias digitales funcionales, creativas y visualmente refinadas. Mi objetivo es construir interfaces modernas que no solo se vean excelentes, sino que también ofrezcan experiencias de usuario intuitivas, manteniéndose fieles a la identidad de cada marca.",
             
         // Projects
         projectsTitle:
             "Proyectos",
 
         projectsDescription:
-            "Proyectos de Frontend y UI/UX Design enfocados en crear experiencias digitales intuitivas, modernas y funcionales, complementados con soluciones Backend y Full-Stack.",
+            "Proyectos de Frontend y UX/UI Design enfocados en crear experiencias digitales intuitivas, modernas y funcionales, complementados con soluciones Backend y Full-Stack.",
 
 
         // Contact
@@ -129,7 +129,7 @@ const translations = {
 
         filterAll: "Todos",
         filterFrontend: "Frontend",
-        filterDesign: "UI/UX & Product Design",
+        filterDesign: "UX/UI & Product Design",
         filterFullStack: "Full-Stack",
 
     },

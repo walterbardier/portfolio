@@ -147,9 +147,9 @@ export default function ProjectModal({
               
               {/* Opciones de botones segun caso */}
               <div className="modal-buttons">
-                {/* Si el tipo es UI/UX... -> Be */}
+                {/* Si el tipo es UX/UI... -> Be */}
                 {project.type.en ===
-                "UI/UX & Product Design" ? (
+                "UX/UI & Product Design" ? (
                   <a
                     href={project.caseStudy}
                     target="_blank"

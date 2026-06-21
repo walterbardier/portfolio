@@ -51,7 +51,7 @@ export default function Projects() {
     ? projects.filter(
         (project) =>
           project.type.en !==
-            "UI/UX & Product Design" &&
+            "UX/UI & Product Design" &&
           !project.fullStack
       )
 
@@ -59,7 +59,7 @@ export default function Projects() {
     ? projects.filter(
         (project) =>
           project.type.en ===
-          "UI/UX & Product Design"
+          "UX/UI & Product Design"
       )
 
     : projects.filter(
