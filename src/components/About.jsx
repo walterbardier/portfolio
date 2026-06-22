@@ -21,7 +21,7 @@ export default function About() {
     "TypeScript",
     "React",
     // "Framer Motion",
-    "Vite",
+    // "Vite",
     "Python",
     "PHP",
     "MySQL",

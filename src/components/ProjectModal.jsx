@@ -53,6 +53,55 @@ export default function ProjectModal({
     };
   }, []);
 
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (fullscreen) {
+        switch (e.key) {
+          case "ArrowLeft":
+            prevImage();
+            break;
+  
+          case "ArrowRight":
+            nextImage();
+            break;
+  
+          case "Escape":
+            setFullscreen(false);
+            break;
+  
+          default:
+            break;
+        }
+      } else {
+        switch (e.key) {
+          case "ArrowLeft":
+            prevImage();
+            break;
+  
+          case "ArrowRight":
+            nextImage();
+            break;
+  
+          case "Escape":
+            onClose();
+            break;
+  
+          default:
+            break;
+        }
+      }
+    };
+  
+    window.addEventListener("keydown", handleKeyDown);
+  
+    return () =>
+      window.removeEventListener(
+        "keydown",
+        handleKeyDown
+      );
+  }, [fullscreen, project]);
+  
+
   const nextImage = () => {
     setCurrentImage((prev) =>
       prev ===
