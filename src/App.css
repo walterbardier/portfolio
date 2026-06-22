@@ -1197,9 +1197,9 @@ body::after {
     /* padding: espacio interior entre iconos */
 
     /* width:calc(100% - 32px); */
-    width: calc(100% - 50px);
+    width: calc(100% - 70px);
 
-    padding: 5px 20px;
+    padding: 5px 5px;
     /* arriba y abajo, izq y der */
 
     justify-content:space-around;
