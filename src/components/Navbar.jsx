@@ -14,16 +14,24 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <a href="#home">{t.navHome}</a>
+      <a href="#home">
+        <LuHouse />
+        <span>{t.navHome}</span>
+      </a>
 
-      <a href="#about">{t.navAbout}</a>
+      <a href="#about">
+        <LuUser />
+        <span>{t.navAbout}</span>
+      </a>
 
       <a href="#projects">
-        {t.navProjects}
+        <LuBriefcase />
+        <span>{t.navProjects}</span>
       </a>
 
       <a href="#contact">
-        {t.navContact}
+        <LuMail />
+        <span>{t.navContact}</span>
       </a>
 
       <div className="language-switcher">
