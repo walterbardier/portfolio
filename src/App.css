@@ -193,7 +193,7 @@ main::before {
 .contact {
   width: 100%;
 
-  padding: 22px;
+  padding: 80px;
 
   border-radius: 40px;
 }
@@ -201,7 +201,7 @@ main::before {
 .about h2,
 .projects-header h2,
 .contact h2 {
-  font-size: 32px;
+  font-size: 64px;
 
   margin-bottom: 30px;
 }
@@ -1168,4 +1168,10 @@ body::after {
     justify-content: center;
     align-self:stretch;
   }
+
+  /* Padding bordes reducidos en mobile */
+  section {
+    padding: 90px 20px;
+  }
 }
+
