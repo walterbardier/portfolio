@@ -1195,7 +1195,7 @@ body::after {
 
     width:calc(100% - 32px);
 
-    padding: 5px 45px;
+    padding: 5px 30px;
     /* arriba y abajo, izq y der */
 
     justify-content:space-around;
