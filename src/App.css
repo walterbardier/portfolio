@@ -699,6 +699,15 @@ body::after {
   position: relative;
 }
 
+/* Espacio entre icono y texto en navbar */
+@media (min-width: 768px) {
+  .navbar a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
 .navbar a::after {
   content: "";
 
@@ -1179,7 +1188,7 @@ body::after {
 @media (max-width: 768px) {
   /* ===== NAVBAR ===== */
 
-  .navbar{
+  .navbar {
     bottom:20px;
     top:auto;
 
@@ -1190,11 +1199,11 @@ body::after {
     justify-content:space-around;
   }
 
-  .navbar a span{
+  .navbar a span {
       display:none;
   }
 
-  .navbar a{
+  .navbar a {
       font-size:22px;
 
       width:44px;
@@ -1203,8 +1212,6 @@ body::after {
       display:flex;
       align-items:center;
       justify-content:center;
-
-      gap: 8px;
   }
 
   .language-switcher{
