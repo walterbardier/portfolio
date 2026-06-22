@@ -4,6 +4,13 @@ import {
 
 import translations from "../data/translations";
 
+import {
+  LuHouse,
+  LuUser,
+  LuBriefcase,
+  LuMail,
+} from "react-icons/lu";
+
 export default function Navbar() {
   const {
     language,
