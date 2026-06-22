@@ -132,7 +132,7 @@ main::before {
 @media (max-width: 768px) {
   .home-buttons {
     justify-content: center;
-    gap: 10px;
+    gap: 15px; /* esapcio entre botones */
     flex-wrap: wrap; /* opcional si se te apretan */
   }
 }
@@ -1193,9 +1193,13 @@ body::after {
     bottom:20px;
     top:auto;
 
-    width:calc(100% - 32px);
+    /* width: espacio exterior */
+    /* padding: espacio interior entre iconos */
+    
+    /* width:calc(100% - 32px); */
+    width: calc(100% - 20px);
 
-    padding: 5px 30px;
+    padding: 5px 20px;
     /* arriba y abajo, izq y der */
 
     justify-content:space-around;
