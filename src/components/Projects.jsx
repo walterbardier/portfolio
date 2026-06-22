@@ -69,9 +69,16 @@ export default function Projects() {
 
   
   return (
+    // <motion.div
     <div
       className="projects-container"
-      
+      // variants={fadeUp}
+      // initial="hidden"
+      // whileInView="show"
+      // viewport={{
+      //   once: true,
+      //   amount: 0.2,
+      // }}
     >
       <div className="projects-header">
         <h2>{t.projectsTitle}</h2>
@@ -182,6 +189,8 @@ export default function Projects() {
           }
         />
       )}
+      
+    {/* </motion.div> */}
     </div>
   );
 }
