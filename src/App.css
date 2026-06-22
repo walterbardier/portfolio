@@ -1190,7 +1190,7 @@ body::after {
   /* ===== NAVBAR ===== */
 
   .navbar {
-    bottom:20px;
+    bottom:10px; /* mas bajo = mas abajo */
     top:auto;
 
     /* width: espacio exterior */
