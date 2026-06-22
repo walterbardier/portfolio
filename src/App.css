@@ -131,9 +131,9 @@ main::before {
 /* mobile */
 @media (max-width: 768px) {
   .home-buttons {
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
+    flex-wrap: wrap; /* opcional si se te apretan */
   }
 }
 
