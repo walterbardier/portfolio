@@ -32,6 +32,8 @@ export default function ProjectModal({
 
   const t = translations[language];
 
+  const [expanded, setExpanded] = useState(false);
+
   useEffect(() => {
     const interval = setInterval(() => {
       if (!fullscreen) {
@@ -177,21 +179,22 @@ export default function ProjectModal({
             <div className="modal-top">
               <div>
                 <h2>
-                  {
-                    project.name[
-                      language
-                    ]
-                  }
+                  {project.name[language]}
                 </h2>
 
-                <p>
-                  {
-                    project
-                      .description[
-                      language
-                    ]
-                  }
+                <p className={`modal-description ${expanded ? "expanded" : ""}`}>
+                  {project.description[language]}
                 </p>
+
+                <button
+                  className="read-more"
+                  onClick={() => setExpanded(!expanded)}
+                >
+                  {expanded
+                    ? t.readLess
+                    : t.readMore}
+                </button>
+
               </div>
               
               {/* Opciones de botones segun caso */}

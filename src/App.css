@@ -196,6 +196,7 @@ main::before {
   padding: 80px;
 
   border-radius: 40px;
+  max-width: 100%;
 }
 
 .about h2,
@@ -212,7 +213,7 @@ main::before {
 
   line-height: 1.8;
 
-  max-width: 700px;
+  max-width: 950px;
 }
 
 .skills,
@@ -372,7 +373,7 @@ main::before {
   display: grid;
   place-items: center;
 
-  padding: 40px;
+  padding: 30px;
 
   overflow-y: auto;
 
@@ -1223,4 +1224,74 @@ body::after {
   .language-switcher{
       margin-left:0;
   }
+}
+
+.modal {
+  max-height: 95vh;
+  overflow-y: auto;
+}
+
+/* estilo del boton read more */
+.read-more {
+  margin-top: 8px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.65);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.read-more:hover {
+  color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-1px);
+}
+
+
+.modal-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.modal-description.expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+@media (max-width: 768px) {
+  .modal-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .modal-description.expanded {
+    display: block;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+
+  .read-more {
+    margin-top: 6px;
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .modal {
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+}
+
+.modal-description {
+  font-size: 14px;
 }

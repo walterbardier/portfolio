@@ -63,6 +63,9 @@ const translations = {
         filterFrontend: "Frontend",
         filterDesign: "UX/UI & Product Design",
         filterFullStack: "Full-Stack",
+
+        readMore: "Read more",
+        readLess: "Show less",
         
     },
   
@@ -131,6 +134,9 @@ const translations = {
         filterFrontend: "Frontend",
         filterDesign: "UX/UI & Product Design",
         filterFullStack: "Full-Stack",
+
+        readMore: "Ver más",
+        readLess: "Ver menos",
 
     },
 
