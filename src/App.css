@@ -1180,7 +1180,8 @@ body::after {
 
   /* Padding bordes reducidos en mobile */
   section {
-    padding: 90px 30px;
+    padding: 70px 40px;
+      /* vertical, horizontal */
   }
 }
 
