@@ -1018,7 +1018,7 @@ body::after {
   opacity: 0.85;
 }
 
-/* layout más pro */
+/* layout */
 .form-row {
   display: flex;
   gap: 16px;
@@ -1028,7 +1028,7 @@ body::after {
   flex: 1;
 }
 
-/* inputs más soft Apple */
+/* inputs */
 .contact-form input,
 .contact-form textarea {
   border-radius: 18px;
@@ -1050,7 +1050,7 @@ body::after {
   transform: translateY(-1px);
 }
 
-/* success más Apple */
+/* success */
 .success-message {
   margin-top: 12px;
 
@@ -1290,8 +1290,4 @@ body::after {
     max-height: 85vh;
     overflow-y: auto;
   }
-}
-
-.modal-description {
-  font-size: 14px;
 }
