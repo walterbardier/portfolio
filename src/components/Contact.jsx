@@ -6,6 +6,8 @@ import emailjs from "@emailjs/browser";
 
 import { fadeUp } from "./animations";
 
+import { SiUpwork } from "react-icons/si";
+
 import {
   useLanguage,
 } from "../context/LanguageContext";
@@ -65,6 +67,26 @@ export default function Contact() {
 
       <p>{t.contactDescription}</p>
 
+
+      {/* Upwork CTA */}
+      <div className="upwork-cta">
+        <p className="upwork-text">
+          {t.upWorkDescription}
+        </p>
+
+        <a
+          href="https://www.upwork.com/freelancers/walterbardier"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="upwork-button"
+        >
+          <SiUpwork />
+          <span>{t.upWorkButton}</span>
+        </a>
+      </div>
+
+      
+      {/* Contact Form */}
       <form
         ref={form}
         onSubmit={sendEmail}

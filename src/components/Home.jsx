@@ -11,7 +11,7 @@ import {
   FaBehance,
 } from "react-icons/fa";
 
-
+import { SiUpwork } from "react-icons/si";
 
 import {
   useLanguage,
@@ -102,6 +102,21 @@ export default function Home() {
             className="social-icon"
           >
             <FaLinkedinIn />
+          </a>
+
+          {/* Btn Upwork */}
+          <a
+            href="https://www.upwork.com/freelancers/walterbardier"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon upwork-tooltip"
+          >
+            <SiUpwork />
+
+            {/* Tooltip */}
+            <span className="tooltip">
+              {t.upWorkDescription}
+            </span>
           </a>
 
         </motion.div>

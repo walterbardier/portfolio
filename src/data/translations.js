@@ -66,6 +66,9 @@ const translations = {
 
         readMore: "Read more",
         readLess: "Show less",
+
+        upWorkDescription: "Available for freelance UX/UI & Front-End work on Upwork",
+        upWorkButton: "Hire me on Upwork",
         
     },
   
@@ -137,6 +140,9 @@ const translations = {
 
         readMore: "Ver más",
         readLess: "Ver menos",
+
+        upWorkDescription: "Disponible para trabajos freelance de UX/UI y Front-End en Upwork",
+        upWorkButton: "Contrátame en Upwork",
 
     },
 
