@@ -22,12 +22,35 @@ const translations = {
         aboutText:
             "Hi, I'm Walter Bardier, a Computer Engineering student from Uruguay with a passion for technology, design, and digital innovation. While I have experience building full-stack projects, my true specialization lies in frontend development and UX/UI design. As a developer and designer, I enjoy transforming complex ideas and client needs into functional, creative, and visually refined digital experiences. My goal is to build modern interfaces that not only look great but also provide intuitive user experiences while staying true to each brand's identity.",
             
-        // Projects
+        // 💼 Projects
         projectsTitle:
             "Projects",
 
         projectsDescription:
             "Frontend and UX/UI Design projects focused on creating intuitive, modern, and functional digital experiences, complemented by Backend and Full-Stack solutions.",
+
+        // Project Modal
+        liveDemo:
+            "Live Demo",
+
+        caseStudy:
+            "Explore the Process",
+
+        expand:
+            "Click to expand",
+            
+        filterAll: "All",
+        filterFrontend: "Frontend",
+        filterDesign: "UX/UI & Product Design",
+        filterFullStack: "Full-Stack",
+
+        readMore: "Read more",
+        readLess: "Show less",
+
+        // 🎓 Education
+        educationTitle: "Education",
+        educationDescription:
+            "Combining Computer Engineering, UX/UI Design, and Frontend Development through both academic education and continuous self-learning.",
 
         // Contact
         contactTitle:
@@ -49,27 +72,10 @@ const translations = {
             "✨ Message sent successfully! Check your e-mail.",
 
 
-        // Project Modal
-        liveDemo:
-            "Live Demo",
-
-        caseStudy:
-            "Explore the Process",
-
-        expand:
-            "Click to expand",
-            
-        filterAll: "All",
-        filterFrontend: "Frontend",
-        filterDesign: "UX/UI & Product Design",
-        filterFullStack: "Full-Stack",
-
-        readMore: "Read more",
-        readLess: "Show less",
-
+        // UpWork
         upWorkDescription: "Available for freelance UX/UI & Front-End work on Upwork",
         upWorkButton: "Hire me on Upwork",
-        
+
     },
   
     es: {
@@ -95,13 +101,35 @@ const translations = {
         aboutText:
             "Hola, soy Walter Bardier, estudiante de Ingeniería en Computación de Uruguay, con una gran pasión por la tecnología, el diseño y la innovación digital. Si bien tengo experiencia en el desarrollo de proyectos full-stack, mi verdadera especialización está en el desarrollo frontend y el diseño UX/UI. Como desarrollador y diseñador, disfruto transformar ideas complejas y necesidades del cliente en experiencias digitales funcionales, creativas y visualmente refinadas. Mi objetivo es construir interfaces modernas que no solo se vean excelentes, sino que también ofrezcan experiencias de usuario intuitivas, manteniéndose fieles a la identidad de cada marca.",
             
-        // Projects
+        // 💼 Projects
         projectsTitle:
             "Proyectos",
 
         projectsDescription:
             "Proyectos de Frontend y UX/UI Design enfocados en crear experiencias digitales intuitivas, modernas y funcionales, complementados con soluciones Backend y Full-Stack.",
 
+        // Project Modal
+        liveDemo:
+            "Live Demo",
+
+        caseStudy:
+            "Ver proceso de diseño",
+
+        expand:
+            "Click para expandir",
+
+        filterAll: "Todos",
+        filterFrontend: "Frontend",
+        filterDesign: "UX/UI & Product Design",
+        filterFullStack: "Full-Stack",
+
+        readMore: "Ver más",
+        readLess: "Ver menos",
+
+        // 🎓 Education
+        educationTitle: "Educación",
+        educationDescription:
+            "Combinando Ingeniería en Computación, Diseño UX/UI y Desarrollo Frontend mediante formación académica y aprendizaje autodidacta continuo.",
 
         // Contact
         contactTitle:
@@ -122,25 +150,9 @@ const translations = {
     
         success:
             "✨ ¡Mensaje enviado correctamente! Chequea tu correo electronico.",
-
-        // Project Modal
-        liveDemo:
-            "Live Demo",
-
-        caseStudy:
-            "Ver proceso de diseño",
-
-        expand:
-            "Click para expandir",
-
-        filterAll: "Todos",
-        filterFrontend: "Frontend",
-        filterDesign: "UX/UI & Product Design",
-        filterFullStack: "Full-Stack",
-
-        readMore: "Ver más",
-        readLess: "Ver menos",
-
+        
+        
+        // UpWork
         upWorkDescription: "Disponible para trabajos freelance de UX/UI y Front-End en Upwork",
         upWorkButton: "Contrátame en Upwork",
 

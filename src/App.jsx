@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
 import Contact from "./components/Contact";
 
 import { useEffect } from "react";
@@ -42,6 +43,10 @@ function App() {
 
         <section id="about">
           <About />
+        </section>
+        
+        <section id="education">
+          <Education />
         </section>
 
         <section id="projects">

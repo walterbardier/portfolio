@@ -202,6 +202,7 @@ export default function ProjectModal({
                 {/* Si el tipo es UX/UI... -> Be */}
                 {project.type.en ===
                 "UX/UI & Product Design" ? (
+                  
                   <a
                     href={project.caseStudy}
                     target="_blank"
@@ -263,8 +264,7 @@ export default function ProjectModal({
             </div>
 
             <div className="project-tags">
-              {project.technologies.map(
-                (tech) => (
+              {project.technologies.map((tech) => (
                   <span key={tech}>
                     {tech}
                   </span>
