@@ -1575,6 +1575,11 @@ body {
   background: rgba(255,255,255,.03);
   border: 1px solid rgba(255,255,255,.08);
 
+}
+
+/* quitar selección y cursor en I */
+.education-item,
+.timeline-content {
   cursor: default;
   user-select: none;
 
