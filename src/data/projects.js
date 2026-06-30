@@ -44,8 +44,8 @@ const projects = [
   {
     id: 2,
     name: {
-      en: "iPhone 14 Pro Max | Showcase",
-      es: "iPhone 14 Pro Max | Showcase",
+      en: "iPhone 14 Pro Max — Showcase",
+      es: "iPhone 14 Pro Max — Showcase",
     },
     type: {
       en: "Product Experience",
@@ -258,8 +258,8 @@ const projects = [
   {
     id: 7,
     name: {
-      en: "X Redesign Concept",
-      es: "X Redesign Concept",
+      en: "X — Redesign Concept",
+      es: "X — Concepto de Rediseño",
     },
     type: {
       en: "Frontend & UX Reasearch",
@@ -293,8 +293,8 @@ const projects = [
   {
     id: 8,
     name: {
-      en: "Overwatch 2 UI Concept",
-      es: "Overwatch 2 Concepto de UI",
+      en: "Overwatch 2 — UI Concept",
+      es: "Overwatch 2 — Concepto de UI",
     },
     type: {
       en: "Frontend & UX Reasearch",
