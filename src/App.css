@@ -7,8 +7,6 @@
 
   --box-shadow-primary-white: rgba(255,255,255,0.35);
 
-  --bg-icon: rgba(184,150,255,.10);
-
   --text: #ffffff;
   --text-muted: rgba(255,255,255,.7);
 
@@ -36,8 +34,6 @@
 
   --upwork-tooltip-bg: rgba(64, 228, 46, 0.6);
   --upwork-tooltip-border: rgba(153, 255, 152, 0.15);
-
-  
 
 }
 
@@ -1643,8 +1639,8 @@ body {
 
   color: var(--primary);
 
-  background: var(--bg-icon);
-  border: 1px solid rgba(184,150,255,.20);
+  background: color-mix(in srgb, var(--primary), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--primary), transparent 80%);
 
   transition:
     transform .45s cubic-bezier(.22,1,.36,1),

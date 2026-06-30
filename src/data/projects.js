@@ -24,12 +24,20 @@ const projects = [
 
     images: [
       "/screenshots/lavender-shop/home-1.png",
+      "/screenshots/lavender-shop/home-2.png",
+      "/screenshots/lavender-shop/home-3.png",
+
       "/screenshots/lavender-shop/shop-1.png",
       "/screenshots/lavender-shop/shop-2.png",
-      "/screenshots/lavender-shop/product-1.png",
+
       "/screenshots/lavender-shop/cart-1.png",
-      "/screenshots/lavender-shop/cart-2.png",
-      "/screenshots/lavender-shop/home-2.png",
+
+      "/screenshots/lavender-shop/home-4.png",
+
+      "/screenshots/lavender-shop/product-1.png",
+      "/screenshots/lavender-shop/product-2.png",
+      "/screenshots/lavender-shop/product-3.png",
+      
     ],
   },
 
