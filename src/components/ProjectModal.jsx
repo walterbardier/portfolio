@@ -241,7 +241,7 @@ export default function ProjectModal({
                       // Si el nombre no es Ow2 o RNC... -> Live Demo
                       // (Sino, no incluye botón de Live Demo)
                       project.name.en !==
-                        "Overwatch 2 UI Concept" &&
+                        "Overwatch 2 — UI Concept" &&
                       project.name.en !==
                         "Río Negro Conectado" && (
                           <a
