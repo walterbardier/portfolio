@@ -2,8 +2,8 @@ const projects = [
   {
     id: 1,
     name: {
-      en: "Lavender Shop",
-      es: "Lavender Shop",
+      en: "LORA",
+      es: "LORA",
     },
     type: {
       en: "E-Commerce",
