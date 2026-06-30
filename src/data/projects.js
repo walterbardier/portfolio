@@ -2,8 +2,8 @@ const projects = [
   {
     id: 1,
     name: {
-      en: "LORA",
-      es: "LORA",
+      en: "LORA — Fashion Retail Platform",
+      es: "LORA — Tienda de Ropa",
     },
     type: {
       en: "E-Commerce",
