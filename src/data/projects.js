@@ -2,6 +2,53 @@ const projects = [
   {
     id: 1,
     name: {
+      en: "ASTRA Beauty — Cosmetics Store",
+      es: "ASTRA Beauty — Tienda de Cosméticos",
+    },
+    type: {
+      en: "E-Commerce",
+      es: "Tienda Online",
+    },
+    description: {
+      en: "A premium beauty e-commerce experience inspired by luxury cosmetics and editorial design. Astra Beauty combines soft glassmorphism, immersive layouts, and refined microinteractions to create an elegant shopping journey. The project explores how minimalism, lighting, and motion can elevate digital product presentation while maintaining a calm, futuristic aesthetic.",
+  
+      es: "Una experiencia de e-commerce de belleza premium inspirada en marcas de cosmética de lujo y el diseño editorial. Astra Beauty combina glassmorphism sutil, composiciones inmersivas y microinteracciones refinadas para crear una experiencia de compra elegante. El proyecto explora cómo el minimalismo, la iluminación y el movimiento pueden potenciar la presentación de productos manteniendo una estética serena y futurista.",
+    },
+  
+    fullStack: false,
+  
+    technologies: [
+      "React",
+      "JavaScript",
+      "Vite",
+      "Tailwind CSS",
+      "Swiper.js",
+      "Framer Motion",
+      "React Icons",
+    ],
+  
+    github: "https://github.com/walterbardier/astra-beauty",
+    demo: "https://astra-beauty.vercel.app",
+  
+    images: [
+      "/screenshots/astra-beauty/navbar-1.png",
+      "/screenshots/astra-beauty/navbar-2.png",
+      "/screenshots/astra-beauty/navbar-3.png",
+
+      "/screenshots/astra-beauty/product-1.png",
+      "/screenshots/astra-beauty/product-2.png",
+      "/screenshots/astra-beauty/product-3.png",
+
+      "/screenshots/astra-beauty/home-1.png",
+      "/screenshots/astra-beauty/home-2.png",
+      "/screenshots/astra-beauty/home-3.png",
+      "/screenshots/astra-beauty/home-4.png",
+
+    ],
+  },
+  {
+    id: 2,
+    name: {
       en: "LORA — Fashion Retail Platform",
       es: "LORA — Tienda de Ropa",
     },
@@ -42,7 +89,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: {
       en: "iPhone 14 Pro Max — Showcase",
       es: "iPhone 14 Pro Max — Showcase",
@@ -83,7 +130,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: {
       en: "Rentio",
       es: "Rentio",
@@ -132,7 +179,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: {
       en: "Velv",
       es: "Velv",
@@ -177,7 +224,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: {
       en: "Scoops & Co.",
       es: "Scoops & Co.",
@@ -211,7 +258,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: {
       en: "Recoverly",
       es: "Recoverly",
@@ -256,7 +303,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: {
       en: "X — Redesign Concept",
       es: "X — Concepto de Rediseño",
@@ -291,7 +338,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: {
       en: "Overwatch 2 — UI Concept",
       es: "Overwatch 2 — Concepto de UI",
@@ -332,7 +379,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: {
       en: "Portfolio UI",
       es: "Portfolio UI",
@@ -364,7 +411,7 @@ const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: {
       en: "Río Negro Conectado",
       es: "Río Negro Conectado",
