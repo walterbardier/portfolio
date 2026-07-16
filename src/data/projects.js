@@ -2,6 +2,71 @@ const projects = [
   {
     id: 1,
     name: {
+      en: "Dylan Kai — Artist Website",
+      es: "Dylan Kai — Sitio Web del Artista",
+    },
+  
+    type: {
+      en: "Website",
+      es: "Sitio Web",
+    },
+  
+    description: {
+      en: "An immersive website designed for indie artist Dylan Kai, translating his musical universe into a cinematic digital experience. The project combines atmospheric visuals, editorial-inspired layouts, smooth animations, and immersive storytelling to showcase albums, lyrics, blog posts, and the artist's identity. Every interaction was crafted to reinforce the emotional tone of the music while maintaining a modern, minimal, Apple-inspired aesthetic.",
+  
+      es: "Un sitio web inmersivo diseñado para el artista indie Dylan Kai, que traduce su universo musical en una experiencia digital cinematográfica. El proyecto combina una identidad visual atmosférica, composiciones inspiradas en el diseño editorial, animaciones fluidas y una narrativa inmersiva para presentar álbumes, letras, publicaciones y la identidad del artista. Cada interacción fue diseñada para reforzar la carga emocional de su música manteniendo una estética moderna, minimalista e inspirada en Apple.",
+    },
+  
+    fullStack: false,
+  
+    technologies: [
+      "React",
+      "TypeScript",
+      "Framer Motion",
+      "Swiper.js",
+      "Tailwind CSS",
+    ],
+  
+    github: "https://github.com/walterbardier/dylan-kai",
+    demo: "https://dylan-kai.vercel.app",
+  
+    images: [
+      // Home
+      "/screenshots/dylan-kai/home-2.png",
+      "/screenshots/dylan-kai/home-1.png",
+      "/screenshots/dylan-kai/home-3.png",
+  
+      // Albums
+      "/screenshots/dylan-kai/albums-1.png",
+  
+      // Album
+      "/screenshots/dylan-kai/album-2.png",
+      "/screenshots/dylan-kai/album-4.png",
+      "/screenshots/dylan-kai/album-8.png",
+      "/screenshots/dylan-kai/album-8-2.png",
+      "/screenshots/dylan-kai/album-8-3.png",
+  
+      // Blog
+      "/screenshots/dylan-kai/blog-1.png",
+      "/screenshots/dylan-kai/blog-2.png",
+      "/screenshots/dylan-kai/blog-3.png",
+      "/screenshots/dylan-kai/blog-4.png",
+  
+      // About
+      "/screenshots/dylan-kai/about-1.png",
+  
+      // Song
+      "/screenshots/dylan-kai/song-info.png",
+      "/screenshots/dylan-kai/song-lyrics.png",
+  
+      // Albums Menu
+      "/screenshots/dylan-kai/albums-menu.png",
+    ],
+  },
+
+  {
+    id: 2,
+    name: {
       en: "ASTRA Beauty — Cosmetics Store",
       es: "ASTRA Beauty — Tienda de Cosméticos",
     },
@@ -20,11 +85,8 @@ const projects = [
     technologies: [
       "React",
       "JavaScript",
-      "Vite",
       "Tailwind CSS",
       "Swiper.js",
-      "Framer Motion",
-      "React Icons",
     ],
   
     github: "https://github.com/walterbardier/astra-beauty",
@@ -47,7 +109,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: {
       en: "LORA — Fashion Retail Platform",
       es: "LORA — Tienda de Ropa",
@@ -89,7 +151,67 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
+    name: {
+      en: "Cookly — Social Recipe Network",
+      es: "Cookly — Red Social de Recetas",
+    },
+  
+    type: {
+      en: "Web Application",
+      es: "Aplicación Web",
+    },
+  
+    description: {
+      en: "A social recipe network designed to connect food lovers, allowing users to discover, share, and save their favorite culinary creations. The platform features an interactive recipe feed, a seamless submission process, and personal recipe management. Built with a mobile-first philosophy, it uses modern web technologies to ensure smooth animations and a highly responsive, user-friendly interface.",
+  
+      es: "Una red social de recetas diseñada para conectar a los amantes de la cocina, permitiendo a los usuarios descubrir, compartir y guardar sus creaciones culinarias favoritas. La plataforma cuenta con un feed de recetas interactivo, un proceso de creación fluido y gestión de recetas personales. Construida con una filosofía 'mobile-first', utiliza tecnologías web modernas para garantizar animaciones fluidas y una interfaz altamente responsiva y fácil de usar.",
+    },
+  
+    fullStack: true,
+  
+    technologies: [
+      "React",
+      "TypeScript",
+      "Supabase",
+      "React Router",
+      "Tailwind CSS",
+    ],
+  
+    github: "https://github.com/walterbardier/cookly",
+    demo: "https://cookly-wb.vercel.app",
+  
+    images: [
+      // Home / Feed
+      "/screenshots/cookly/home-1.png",
+
+      // Profile
+      "/screenshots/cookly/profile-1.png",
+
+      // Recipe
+      "/screenshots/cookly/recipe-1.png",
+
+      // Post Recipe
+      "/screenshots/cookly/post-recipe-1.png",
+      "/screenshots/cookly/post-recipe-2.png",
+
+      // Edit Profile
+      "/screenshots/cookly/edit-profile-1.png",
+      "/screenshots/cookly/edit-profile-2.png",
+
+      // Friends & Discover
+      "/screenshots/cookly/friends-1.png",
+      "/screenshots/cookly/discover-1.png",
+
+      // Recipe
+      "/screenshots/cookly/recipe-2.png",
+      "/screenshots/cookly/recipe-3.png",
+
+    ],
+  },
+
+  {
+    id: 5,
     name: {
       en: "iPhone 14 Pro Max — Showcase",
       es: "iPhone 14 Pro Max — Showcase",
@@ -111,8 +233,6 @@ const projects = [
       "Three.js",
       "React Three Fiber",
       "Framer Motion",
-      "JavaScript",
-      "Vite",
     ],
   
     github: "https://github.com/walterbardier/iphone-showcase",
@@ -130,7 +250,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 6,
     name: {
       en: "Rentio",
       es: "Rentio",
@@ -153,7 +273,6 @@ const projects = [
       "Adobe Illustrator",
       "Wireframing",
       "Prototyping",
-      "Design System",
       "Brand Identity",
     ],
   
@@ -179,7 +298,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 7,
     name: {
       en: "Velv",
       es: "Velv",
@@ -224,7 +343,52 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 8,
+    name: {
+      en: "Recoverly",
+      es: "Recoverly",
+    },
+    type: {
+      en: "Wellness & Habit Tracker",
+      es: "Bienestar & Tracker de Hábitos",
+    },
+    description: {
+      en: "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions. Designed for those in recovery when starting therapy or after an unhealthy streak, the app supports this journey through a reactive virtual companion that acts as both a pet to care for and a reflection of the user themselves.",
+      es: "Una experiencia de bienestar y cuidado personal centrada en el seguimiento de hábitos, la atención plena (mindfulness), la reflexión emocional e interacciones inmersivas inspiradas en el estilo glassmorphic. Diseñada para quienes están en recuperación al empezar terapia o después de una racha poco sana, la app apoya este proceso a través de un compañero virtual reactivo que funciona tanto como una mascota a la que cuidar como un reflejo de uno mismo.",
+    },
+
+    fullStack: false,
+
+    technologies: ["React", "JavaScript", "Vite", "DnD Kit"],
+    
+    github: "https://github.com/walterbardier/recoverly",
+    demo: "https://recoverly-wb.vercel.app",
+    
+    images: [
+      "/screenshots/recoverly/dashboard-1.png",
+      "/screenshots/recoverly/dashboard-2.png",
+  
+      "/screenshots/recoverly/meditation-1.png",
+  
+      "/screenshots/recoverly/walk-1.png",
+      "/screenshots/recoverly/walk-2.png",
+      "/screenshots/recoverly/walk-3.png",
+      "/screenshots/recoverly/walk-4.png",
+  
+      "/screenshots/recoverly/dreams-1.png",
+      "/screenshots/recoverly/dreams-2.png",
+      "/screenshots/recoverly/dreams-3.png",
+      "/screenshots/recoverly/dreams-4.png",
+  
+      "/screenshots/recoverly/dashboard-3.png",
+      "/screenshots/recoverly/dashboard-4.png",
+  
+      "/screenshots/recoverly/alternative.png",
+    ],
+  },
+
+  {
+    id: 9,
     name: {
       en: "Scoops & Co.",
       es: "Scoops & Co.",
@@ -258,52 +422,7 @@ const projects = [
   },
 
   {
-    id: 7,
-    name: {
-      en: "Recoverly",
-      es: "Recoverly",
-    },
-    type: {
-      en: "Wellness & Habit Tracker",
-      es: "Bienestar & Tracker de Hábitos",
-    },
-    description: {
-      en: "A wellness and self-care experience focused on habit tracking, mindfulness, emotional reflection, and immersive glassmorphism-inspired interactions. Designed for those in recovery when starting therapy or after an unhealthy streak, the app supports this journey through a reactive virtual companion that acts as both a pet to care for and a reflection of the user themselves.",
-      es: "Una experiencia de bienestar y cuidado personal centrada en el seguimiento de hábitos, la atención plena (mindfulness), la reflexión emocional e interacciones inmersivas inspiradas en el estilo glassmorphic. Diseñada para quienes están en recuperación al empezar terapia o después de una racha poco sana, la app apoya este proceso a través de un compañero virtual reactivo que funciona tanto como una mascota a la que cuidar como un reflejo de uno mismo.",
-    },
-
-    fullStack: false,
-
-    technologies: ["React", "JavaScript", "HTML", "CSS", "Vite", "DnD Kit"],
-    
-    github: "https://github.com/walterbardier/recoverly",
-    demo: "https://recoverly-wb.vercel.app",
-    
-    images: [
-      "/screenshots/recoverly/dashboard-1.png",
-      "/screenshots/recoverly/dashboard-2.png",
-  
-      "/screenshots/recoverly/meditation-1.png",
-  
-      "/screenshots/recoverly/walk-1.png",
-      "/screenshots/recoverly/walk-2.png",
-      "/screenshots/recoverly/walk-3.png",
-      "/screenshots/recoverly/walk-4.png",
-  
-      "/screenshots/recoverly/dreams-1.png",
-      "/screenshots/recoverly/dreams-2.png",
-      "/screenshots/recoverly/dreams-3.png",
-      "/screenshots/recoverly/dreams-4.png",
-  
-      "/screenshots/recoverly/dashboard-3.png",
-      "/screenshots/recoverly/dashboard-4.png",
-  
-      "/screenshots/recoverly/alternative.png",
-    ],
-  },
-
-  {
-    id: 8,
+    id: 10,
     name: {
       en: "X — Redesign Concept",
       es: "X — Concepto de Rediseño",
@@ -319,7 +438,7 @@ const projects = [
 
     fullStack: false,
 
-    technologies: ["React", "JavaScript", "Framer Motion", "Lucide Icons", "Figma"],
+    technologies: ["React", "JavaScript", "Framer Motion", "Figma"],
     
     github: "https://github.com/walterbardier/portfolio",
     demo: "https://x-redesign.vercel.app",
@@ -338,7 +457,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 11,
     name: {
       en: "Overwatch 2 — UI Concept",
       es: "Overwatch 2 — Concepto de UI",
@@ -379,7 +498,7 @@ const projects = [
   },
 
   {
-    id: 10,
+    id: 12,
     name: {
       en: "Portfolio UI",
       es: "Portfolio UI",
@@ -411,7 +530,7 @@ const projects = [
   },
 
   {
-    id: 11,
+    id: 13,
     name: {
       en: "Río Negro Conectado",
       es: "Río Negro Conectado",
